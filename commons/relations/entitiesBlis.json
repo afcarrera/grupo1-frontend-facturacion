@@ -16,6 +16,23 @@
 			},
 			"idBli": "BLI6318_bli_recuperarclientes",
 			"nameBli": "BLI_RecuperarClientes"
-		}
+		},
+		{
+            "entities": {
+                "inputEntity": [
+                    {
+                        "entityId": "EN_PRODUCTGO_609",
+                        "moduleId": "FCTRC",
+                        "related": false
+                    }
+                ],
+                "outputEntity": [
+                ],
+                "returnEntity": [
+                ]
+            },
+            "idBli": "BLI8041_bli_registrarproducto",
+            "nameBli": "BLI_RegistrarProducto"
+        }
 	]
 }

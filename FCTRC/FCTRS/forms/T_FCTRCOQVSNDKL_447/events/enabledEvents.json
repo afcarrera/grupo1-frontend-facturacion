@@ -1,2 +1,16 @@
 [
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONXQIQBYN_646579",
+		"controlName": "VA_VABUTTONXQIQBYN_646579",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 3
+			}
+		],
+		"entityName": "EntidadProductoGrupoA",
+		"eventsType": "visualAttributeEventType"
+	}
 ]
