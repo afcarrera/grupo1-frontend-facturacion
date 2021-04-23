@@ -1,0 +1,18 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_DETAAERU_HX97",
+		"controlName": "DetalleFacturacionGrupoAQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../FCTRC/FCTRS/queries/Q_DETAAERU_HX97.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "EntidadDetalleFactura",
+		"eventsType": "queryEventType"
+	}
+]

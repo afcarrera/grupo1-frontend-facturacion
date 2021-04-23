@@ -1,0 +1,18 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_CLIEGTEN_XH49",
+		"controlName": "ClientesFacturacionGrupoAQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../FCTRC/FCTRS/queries/Q_CLIEGTEN_XH49.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "EntidadClienteGrupoA",
+		"eventsType": "queryEventType"
+	}
+]

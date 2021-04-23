@@ -1,8 +1,18 @@
 {
 	"EN_CLIENTERR_422": {
 		"queries": {
+			"Q_CLIEGTEN_XH49": {
+				"$ref": "../FCTRS/queries/Q_CLIEGTEN_XH49.json#"
+			},
 			"Q_CLIENGPR_DY48": {
 				"$ref": "../FCTRS/queries/Q_CLIENGPR_DY48.json#"
+			}
+		}
+	},
+	"EN_DETALLEAU_899": {
+		"queries": {
+			"Q_DETAAERU_HX97": {
+				"$ref": "../FCTRS/queries/Q_DETAAERU_HX97.json#"
 			}
 		}
 	},
