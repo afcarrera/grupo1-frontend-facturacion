@@ -126,45 +126,6 @@
 							"queryId": "Q_DETAAERU_HX97",
 							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
-								{
-									"action": null,
-									"commandImageId": null,
-									"commandName": "GridCommand",
-									"commandOrder": 1,
-									"commandType": 0,
-									"customActionId": "CEQV_201QV_RY97_GWB17_925",
-									"customizationLayer": 0,
-									"customizationLayerDescription": "ECU",
-									"enabled": "T",
-									"eventActions": [
-									],
-									"filter": null,
-									"isCustomized": false,
-									"label": {
-										"defaultValue": {
-											"$ref": "../../../../FCTRC/assets/languages/FCTRC.json#/FCTRC/LBL/LBL_FCTRC_CLIENTEFC_25542"
-										},
-										"labelId": "LBL_FCTRC_CLIENTEFC_25542",
-										"moduleId": "FCTRC"
-									},
-									"name": "GridCommand",
-									"options": 0,
-									"queryView": "QV_RY97_GWB17",
-									"queryViewEventType": {
-										"availableExecutionType": 7,
-										"description": "Evento para los botones de Grilla",
-										"eventId": 201,
-										"name": "GridCommand"
-									},
-									"serviceName": null,
-									"userControl": {
-										"customizationLayer": "0",
-										"customizationLayerDescription": "ECU",
-										"description": "Designer Button",
-										"type": "A",
-										"userControlId": "Button"
-									}
-								}
 							],
 							"queryViewId": "QV_RY97_GWB17",
 							"queryViewType": "Grid",
@@ -454,6 +415,23 @@
 								"componentInGrid": false,
 								"componentStyle": null,
 								"customEvents": [
+									{
+										"customEventId": "CEVA_010VA_VABUTTONCSCWKZK_137992_255",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+										],
+										"executionType": 1,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+											"eventId": 10,
+											"name": "ExecuteCommand"
+										}
+									}
 								],
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
@@ -496,6 +474,23 @@
 								"componentInGrid": false,
 								"componentStyle": null,
 								"customEvents": [
+									{
+										"customEventId": "CEVA_010VA_VABUTTONVNVEJEN_144992_455",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+										],
+										"executionType": 1,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+											"eventId": 10,
+											"name": "ExecuteCommand"
+										}
+									}
 								],
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",

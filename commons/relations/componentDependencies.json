@@ -2,6 +2,10 @@
 	"CompositeForms": {
 	},
 	"Entities": {
+		"EN_CLIENTEDS_562": {
+			"labels": [
+			]
+		},
 		"EN_CLIENTERR_422": {
 			"labels": [
 			]
@@ -80,8 +84,8 @@
 			"blis": [
 			],
 			"entities": {
-				"EN_2YVDEDDPV_789": [
-					"AT02_1KANCKNL789"
+				"EN_CLIENTEDS_562": [
+					"AT97_NOMBRELL562"
 				],
 				"EN_CLIENTERR_422": [
 					"AT62_NOMBREUR422",

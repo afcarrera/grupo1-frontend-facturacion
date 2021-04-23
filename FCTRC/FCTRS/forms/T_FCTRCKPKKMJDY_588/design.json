@@ -122,6 +122,8 @@
 							"query": {
 								"$ref": "../../../../FCTRC/FCTRS/queries/Q_CLIEGTEN_XH49.json#"
 							},
+							"queryId": "Q_CLIEGTEN_XH49",
+							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
 							],
 							"queryViewId": "QV_YJ49_HLE82",
@@ -344,7 +346,7 @@
 						],
 						"enabled": 4095,
 						"entity": {
-							"$ref": "../../../../FCTRC/entities/EN_2YVDEDDPV_789.json#"
+							"$ref": "../../../../FCTRC/entities/EN_CLIENTEDS_562.json#"
 						},
 						"eventType": 0,
 						"groupId": "G_FACTURANUS_127924",
@@ -364,7 +366,7 @@
 								"aggregate": null,
 								"aggregateId": null,
 								"attribute": {
-									"$ref": "../../../../FCTRC/entities/EN_2YVDEDDPV_789.json#/attributes/AT02_1KANCKNL789"
+									"$ref": "../../../../FCTRC/entities/EN_CLIENTEDS_562.json#/attributes/AT97_NOMBRELL562"
 								},
 								"attributeValidations": [
 								],
@@ -387,7 +389,7 @@
 									"moduleId": "FCTRC"
 								},
 								"maxRecords": null,
-								"name": "attribute1",
+								"name": "nombre",
 								"options": 0,
 								"order": 1,
 								"readOnly": 8,
@@ -429,7 +431,7 @@
 									"moduleId": "FCTRC"
 								},
 								"maxRecords": null,
-								"name": "VA_VABUTTONWLKKQSA_336924",
+								"name": "",
 								"options": 0,
 								"order": 2,
 								"queryId": "Q_CLIEGTEN_XH49",
