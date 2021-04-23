@@ -124,6 +124,8 @@
 							"query": {
 								"$ref": "../../../../FCTRC/FCTRS/queries/Q_CLIENGPR_DY48.json#"
 							},
+							"queryId": "Q_CLIENGPR_DY48",
+							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
 							],
 							"queryViewId": "QV_ZI48_QPO61",
