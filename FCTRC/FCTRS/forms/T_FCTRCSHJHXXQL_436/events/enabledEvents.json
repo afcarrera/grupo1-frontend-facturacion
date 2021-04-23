@@ -1,2 +1,16 @@
 [
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONAIWUYCT_877301",
+		"controlName": "VA_VABUTTONAIWUYCT_877301",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 3
+			}
+		],
+		"entityName": "EntidadClienteGrupoA",
+		"eventsType": "visualAttributeEventType"
+	}
 ]

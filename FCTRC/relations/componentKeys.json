@@ -28,9 +28,9 @@
 			"Q_CLIENGPR_DY48": {
 				"name": "EntidadClienteGrupoAQuery"
 			},
-      "Q_PRODCUPP_OW53": {
+			"Q_PRODCUPP_OW53": {
 				"name": "ProductoGrupoAQuery"
 			}
-			}
 		}
+	}
 }
