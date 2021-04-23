@@ -61,13 +61,16 @@
 						"customEvents": [
 						],
 						"enabled": 4095,
+						"entity": {
+							"$ref": "../../../../FCTRC/entities/EN_CEDULABRS_834.json#"
+						},
 						"eventType": 0,
-						"groupId": "G_FACTURALRE_654284",
+						"groupId": "G_FACTURAIPE_725284",
 						"htmlSection": "F",
 						"independentValidation": "F",
 						"isCustomized": false,
 						"layoutType": "Group",
-						"name": "Group1222",
+						"name": "Group1722",
 						"order": 1,
 						"orientation": "V",
 						"responsiveLayouts": null,
@@ -78,6 +81,8 @@
 							{
 								"aggregate": null,
 								"aggregateId": null,
+								"attributeValidations": [
+								],
 								"colSpan": 1,
 								"componentInGrid": false,
 								"componentStyle": null,
@@ -88,9 +93,9 @@
 								"include": 4095,
 								"isCustomized": false,
 								"maxRecords": null,
-								"name": "G_FACTURALRE_654284-default-blank",
+								"name": "Spacer2948",
 								"options": 0,
-								"order": 0,
+								"order": 1,
 								"responsiveLayouts": null,
 								"responsivity": false,
 								"sizeWidthComposite": null,
@@ -100,7 +105,94 @@
 									"userControlId": "Spacer"
 								},
 								"visible": 4095,
-								"visualAttributeId": "G_FACTURALRE_654284-default-blank",
+								"visualAttributeId": "Spacer2948",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../FCTRC/entities/EN_CEDULABRS_834.json#/attributes/AT62_CEDULAUU834"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../FCTRC/assets/languages/FCTRC.json#/FCTRC/LBL/LBL_FCTRC_CEDULAGXY_22401"
+									},
+									"labelId": "LBL_FCTRC_CEDULAGXY_22401",
+									"moduleId": "FCTRC"
+								},
+								"maxRecords": null,
+								"name": "cedulaBusqueda",
+								"options": 0,
+								"order": 2,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_CEDULABUSQUEDDA_653284",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": null,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../FCTRC/assets/languages/FCTRC.json#/FCTRC/LBL/LBL_FCTRC_BUSCARWQB_95372"
+									},
+									"labelId": "LBL_FCTRC_BUSCARWQB_95372",
+									"moduleId": "FCTRC"
+								},
+								"maxRecords": null,
+								"name": "VA_VABUTTONTGUFEDF_936284",
+								"options": 0,
+								"order": 3,
+								"queryModule": null,
+								"queryVersion": null,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "A",
+									"userControlId": "Button"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_VABUTTONTGUFEDF_936284",
 								"width": null,
 								"widthComposite": "D"
 							}

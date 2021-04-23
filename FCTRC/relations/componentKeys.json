@@ -1,7 +1,13 @@
 {
 	"Entities": {
+		"EN_CEDULABRS_834": {
+			"name": "CedulaBusquedaGrupoA"
+		},
 		"EN_CLIENTERR_422": {
 			"name": "EntidadClienteGrupoA"
+		},
+		"EN_FECHASBOU_205": {
+			"name": "FechasBusquedaGrupoA"
 		},
 		"EN_PRODUCTGO_609": {
 			"name": "EntidadProductoGrupoA"

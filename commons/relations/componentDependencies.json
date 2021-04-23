@@ -2,7 +2,15 @@
 	"CompositeForms": {
 	},
 	"Entities": {
+		"EN_CEDULABRS_834": {
+			"labels": [
+			]
+		},
 		"EN_CLIENTERR_422": {
+			"labels": [
+			]
+		},
+		"EN_FECHASBOU_205": {
 			"labels": [
 			]
 		},
@@ -16,6 +24,9 @@
 			"blis": [
 			],
 			"entities": {
+				"EN_CEDULABRS_834": [
+					"AT62_CEDULAUU834"
+				]
 			},
 			"externalEntities": {
 			},
@@ -24,6 +35,8 @@
 			"header": [
 			],
 			"labels": [
+				"LBL_FCTRC_BUSCARWQB_95372",
+				"LBL_FCTRC_CEDULAGXY_22401"
 			],
 			"queries": {
 			},
@@ -92,6 +105,10 @@
 			"blis": [
 			],
 			"entities": {
+				"EN_FECHASBOU_205": [
+					"AT64_FECHAFIN205",
+					"AT93_FECHAICO205"
+				]
 			},
 			"externalEntities": {
 			},
@@ -100,6 +117,9 @@
 			"header": [
 			],
 			"labels": [
+				"LBL_FCTRC_BUSCARWQB_95372",
+				"LBL_FCTRC_FECHAFINN_60757",
+				"LBL_FCTRC_FECHAINIO_78143"
 			],
 			"queries": {
 			},
