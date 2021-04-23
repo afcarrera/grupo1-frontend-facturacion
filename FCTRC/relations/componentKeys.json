@@ -1,7 +1,16 @@
 {
 	"Entities": {
+		"EN_1TFOHGJPI_758": {
+			"name": "Entity1"
+		},
+		"EN_2YVDEDDPV_789": {
+			"name": "Entity2"
+		},
 		"EN_CLIENTERR_422": {
 			"name": "EntidadClienteGrupoA"
+		},
+		"EN_DETALLEAU_899": {
+			"name": "EntidadDetalleFactura"
 		},
 		"EN_PRODUCTGO_609": {
 			"name": "EntidadProductoGrupoA"
@@ -11,6 +20,12 @@
 		"CompositeForms": {
 		},
 		"Forms": {
+			"T_FCTRCJPFLCVFT_661": {
+				"name": "FormularioFacturacionGrupoA"
+			},
+			"T_FCTRCKPKKMJDY_588": {
+				"name": "FormularioFacturacionClientesGrupoA"
+			},
 			"T_FCTRCOHOJWGYR_975": {
 				"name": "FormularioProductosGrupoA"
 			},
@@ -25,8 +40,14 @@
 			}
 		},
 		"Queries": {
+			"Q_CLIEGTEN_XH49": {
+				"name": "ClientesFacturacionGrupoAQuery"
+			},
 			"Q_CLIENGPR_DY48": {
 				"name": "EntidadClienteGrupoAQuery"
+			},
+			"Q_DETAAERU_HX97": {
+				"name": "DetalleFacturacionGrupoAQuery"
 			},
 			"Q_PRODCUPP_OW53": {
 				"name": "ProductoGrupoAQuery"
