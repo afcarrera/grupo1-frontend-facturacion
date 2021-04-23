@@ -1,0 +1,140 @@
+{
+	"filename": "C:\\Users\\Vero\\Documents\\Verito-Resp\\Clear Minds\\Semillero\\SP\\sp_prod_grupo1.sql",
+	"procedure": {
+		"database": "cobis",
+		"name": "sp_prod_grupo1",
+		"owner": "dbo",
+		"parameters": [
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_srv"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@s_ssn"
+			},
+			{
+				"dataType": "datetime",
+				"direction": "in",
+				"name": "@s_date"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_ofi"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_user"
+			},
+			{
+				"dataType": "smallint",
+				"direction": "in",
+				"name": "@s_rol"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@s_term"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_file"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@t_trn"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@t_debug"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_from"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_operacion"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_nombre_busqueda"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_codigo"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_nombre"
+			},
+			{
+				"dataType": "money",
+				"direction": "in",
+				"name": "@i_precio"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_estado"
+			}
+		],
+		"queries": [
+			{
+				"_idQuery": "3a7b2bb9-c2d7-4cae-8ae9-c633ae5d2077",
+				"columns": [
+					"{0}"
+				],
+				"editMode": true,
+				"queryText": "select count(1) from"
+			},
+			{
+				"_idQuery": "26d83d34-8fe0-4aac-8caa-49ac68464c87",
+				"columns": [
+					"codigo",
+					"nombre",
+					"precio",
+					"estado"
+				],
+				"editMode": true,
+				"queryText": "select\r\n\t\t\u0027codigo\u0027\t= pr_codigo,\r\n\t\t\u0027nombre\u0027\t= pr_nombre,\r\n\t\t\u0027precio\u0027\t= pr_precio,\r\n\t\t\u0027estado\u0027\t= pr_estado\r\n\tfrom"
+			},
+			{
+				"_idQuery": "5fa9e02f-8599-4e4c-a4e5-ec3fc5bf7667",
+				"columns": [
+					"codigo",
+					"nombre",
+					"precio"
+				],
+				"editMode": true,
+				"queryText": "select\r\n\t\t\u0027codigo\u0027\t= pr_codigo,\r\n\t\t\u0027nombre\u0027\t= pr_nombre,\r\n\t\t\u0027precio\u0027\t= pr_precio\r\n\tfrom"
+			}
+		],
+		"variables": [
+			{
+				"dataType": "int",
+				"name": "@w_error"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_return"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_sp_name"
+			}
+		]
+	}
+}

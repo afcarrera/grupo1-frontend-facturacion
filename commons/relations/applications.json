@@ -1,2 +1,56 @@
 {
+	"APP_SFACTURAUCO_297": {
+		"externalModules": {
+		},
+		"forms": {
+			"FCTRC": [
+				{
+					"generated": 0,
+					"moduleId": "FCTRC",
+					"name": "FormularioProductosGrupoA",
+					"subModuleId": "FCTRS",
+					"taskId": "T_FCTRCOHOJWGYR_975",
+					"type": "Simple form"
+				},
+				{
+					"generated": 0,
+					"moduleId": "FCTRC",
+					"name": "FormularioProductoGrupoA",
+					"subModuleId": "FCTRS",
+					"taskId": "T_FCTRCOQVSNDKL_447",
+					"type": "Simple form"
+				},
+				{
+					"generated": 0,
+					"moduleId": "FCTRC",
+					"name": "FormularioClientesGrupoA",
+					"subModuleId": "FCTRS",
+					"taskId": "T_FCTRCPVJSZOHO_709",
+					"type": "Simple form"
+				},
+				{
+					"generated": 0,
+					"moduleId": "FCTRC",
+					"name": "FormularioClienteGrupoA",
+					"subModuleId": "FCTRS",
+					"taskId": "T_FCTRCSHJHXXQL_436",
+					"type": "Simple form"
+				}
+			]
+		},
+		"generate": {
+			"categoryName": "Cobiscorp",
+			"customEventImpl": "Custom",
+			"customEventImplPath": "{projectPath}\\build",
+			"displayName": "FormsFacturacionGrupoA",
+			"mode": "Development",
+			"type": "HTML5"
+		},
+		"id": "APP_SFACTURAUCO_297",
+		"mainPortletTaskId": "T_FCTRCOHOJWGYR_975",
+		"modules": [
+			"FCTRC"
+		],
+		"name": "FormsFacturacionGrupoA"
+	}
 }
