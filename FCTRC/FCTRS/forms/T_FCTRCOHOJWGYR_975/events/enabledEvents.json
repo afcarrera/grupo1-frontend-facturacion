@@ -1,0 +1,32 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_PRODCUPP_OW53",
+		"controlName": "ProductoGrupoAQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../FCTRC/FCTRS/queries/Q_PRODCUPP_OW53.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "EntidadProductoGrupoA",
+		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "QV_BE53_PGM34",
+		"controlName": "QV_BE53_PGM34",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "rowDeleting",
+				"executionType": 3
+			}
+		],
+		"entityName": "EntidadProductoGrupoA",
+		"eventsType": "queryViewEventType"
+	}
+]

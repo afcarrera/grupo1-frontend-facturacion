@@ -1,6 +1,76 @@
 {
-	"Entities": {},
-	"Forms": {},
-	"CompositeForms": {},
-	"Queries": {}
+	"CompositeForms": {
+	},
+	"Entities": {
+		"EN_PRODUCTGO_609": {
+			"labels": [
+			]
+		}
+	},
+	"Forms": {
+		"T_FCTRCOHOJWGYR_975": {
+			"blis": [
+			],
+			"entities": {
+				"EN_PRODUCTGO_609": [
+					"AT25_PRECIOKY609",
+					"AT30_CODIGOUB609",
+					"AT41_NOMBREOE609"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_FCTRC_CDIGOMIIH_34634",
+				"LBL_FCTRC_NOMBREVVS_63185",
+				"LBL_FCTRC_PRECIOIGZ_19730"
+			],
+			"queries": {
+				"Q_PRODCUPP_OW53": [
+					"QM_PRODC33PU3116_02",
+					"QM_PRODC5P3P5876_01",
+					"QM_PRODCPPUOO939_03"
+				]
+			},
+			"subForms": [
+			]
+		},
+		"T_FCTRCOQVSNDKL_447": {
+			"blis": [
+			],
+			"entities": {
+				"EN_PRODUCTGO_609": [
+					"AT25_PRECIOKY609",
+					"AT30_CODIGOUB609",
+					"AT41_NOMBREOE609"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_FCTRC_CDIGOMIIH_34634",
+				"LBL_FCTRC_GUARDARFN_62047",
+				"LBL_FCTRC_NOMBREVVS_63185",
+				"LBL_FCTRC_PRECIOIGZ_19730"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		}
+	},
+	"Queries": {
+		"Q_PRODCUPP_OW53": {
+			"labels": [
+			]
+		}
+	}
 }

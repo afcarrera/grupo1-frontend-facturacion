@@ -1,10 +1,13 @@
 {
-    "FCTRC": {
-        "LBL": {
-
-        },
-        "MSG": {
-
-        }
-    }
+	"FCTRC": {
+		"LBL": {
+			"LBL_FCTRC_CDIGOMIIH_34634": "C\u00f3digo",
+			"LBL_FCTRC_DATOSPRCO_91569": "Datos Producto",
+			"LBL_FCTRC_GUARDARFN_62047": "Guardar",
+			"LBL_FCTRC_NOMBREVVS_63185": "Nombre",
+			"LBL_FCTRC_PRECIOIGZ_19730": "Precio"
+		},
+		"MSG": {
+		}
+	}
 }

@@ -1,0 +1,24 @@
+{
+	"Entities": {
+		"EN_PRODUCTGO_609": {
+			"name": "EntidadProductoGrupoA"
+		}
+	},
+	"FCTRS": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_FCTRCOHOJWGYR_975": {
+				"name": "FormularioProductosGrupoA"
+			},
+			"T_FCTRCOQVSNDKL_447": {
+				"name": "FormularioProductoGrupoA"
+			}
+		},
+		"Queries": {
+			"Q_PRODCUPP_OW53": {
+				"name": "ProductoGrupoAQuery"
+			}
+		}
+	}
+}
