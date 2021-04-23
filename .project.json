@@ -12,12 +12,11 @@
 					"subModuleName": "FACTURAS"
 				},
 				{
-					"subModuleId": "RPRTE",
-					"subModuleName": "REPORTE"
+					"subModuleId": "RPRTS",
+					"subModuleName": "REPORTES"
 				}
 			]
 		}
 	],
 	"projectName": "GRUPO1FACTURACION",
-	"subModuleId": "RPRTE"
-}
+	"subModuleId": "RPRTS"}
