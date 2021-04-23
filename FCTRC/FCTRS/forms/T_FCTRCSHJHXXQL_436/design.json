@@ -1,0 +1,427 @@
+{
+	"autoCrudStr": "F",
+	"cobisPattern": "None",
+	"cobisPatternId": 0,
+	"commands": [
+	],
+	"customEvents": [
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"graphicSupportStr": "F",
+	"header": null,
+	"id": {
+		"moduleId": "FCTRC",
+		"subModuleId": "FCTRS",
+		"taskId": "T_FCTRCSHJHXXQL_436",
+		"version": "1.0.0"
+	},
+	"isCustomized": false,
+	"isImported": false,
+	"mainViewContainerId": "VC_CLIENTEGPR_388436",
+	"modeEnabled": 4095,
+	"name": {
+		"$ref": "../../../../FCTRC/relations/componentKeys.json#/FCTRS/Forms/T_FCTRCSHJHXXQL_436/name"
+	},
+	"setFocus": false,
+	"tempSaveStr": "F",
+	"viewContainers": [
+		{
+			"breadcrumbs": "Automatic",
+			"collapsedStr": "F",
+			"colSpan": 1,
+			"columnsNum": 1,
+			"componentStyle": null,
+			"customEvents": [
+			],
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": 4095,
+			"id": {
+				"moduleId": "FCTRC",
+				"subModuleId": "FCTRS",
+				"taskId": "T_FCTRCSHJHXXQL_436",
+				"taskVersion": "1.0.0",
+				"viewContainerId": "VC_CLIENTEGPR_388436"
+			},
+			"isCustomized": false,
+			"layoutType": "Group",
+			"name": "FormularioClienteGrupoA",
+			"options": 0,
+			"responsiveLayouts": null,
+			"responsivity": false,
+			"style": null,
+			"view": {
+				"groups": [
+					{
+						"collapsedStr": "F",
+						"colSpan": 1,
+						"columnsNum": 3,
+						"componentStyle": null,
+						"customEvents": [
+						],
+						"enabled": 4095,
+						"entity": {
+							"$ref": "../../../../FCTRC/entities/EN_CLIENTERR_422.json#"
+						},
+						"eventType": 0,
+						"groupId": "G_CLIENTEGRA_984301",
+						"htmlSection": "F",
+						"independentValidation": "F",
+						"isCustomized": false,
+						"layoutType": "Group",
+						"name": "Group1315",
+						"order": 1,
+						"orientation": "V",
+						"responsiveLayouts": null,
+						"responsivity": false,
+						"style": null,
+						"visible": 4095,
+						"visualAttributes": [
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "Spacer2443",
+								"options": 0,
+								"order": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "I",
+									"userControlId": "Spacer"
+								},
+								"visible": 4095,
+								"visualAttributeId": "Spacer2443",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "Spacer2528",
+								"options": 0,
+								"order": 6,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "I",
+									"userControlId": "Spacer"
+								},
+								"visible": 4095,
+								"visualAttributeId": "Spacer2528",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../FCTRC/entities/EN_CLIENTERR_422.json#/attributes/AT87_APELLIDO422"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../FCTRC/assets/languages/FCTRC.json#/FCTRC/LBL/LBL_FCTRC_APELLIDOO_36938"
+									},
+									"labelId": "LBL_FCTRC_APELLIDOO_36938",
+									"moduleId": "FCTRC"
+								},
+								"maxRecords": null,
+								"name": "apellido",
+								"options": 0,
+								"order": 3,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_APELLIDOROLGXTM_400301",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../FCTRC/entities/EN_CLIENTERR_422.json#/attributes/AT72_CEDULAPK422"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../FCTRC/assets/languages/FCTRC.json#/FCTRC/LBL/LBL_FCTRC_CDULAFMFW_42539"
+									},
+									"labelId": "LBL_FCTRC_CDULAFMFW_42539",
+									"moduleId": "FCTRC"
+								},
+								"maxRecords": null,
+								"name": "cedula",
+								"options": 0,
+								"order": 1,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_CEDULAJMGAIJBQP_664301",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../FCTRC/entities/EN_CLIENTERR_422.json#/attributes/AT79_DIRECCON422"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 2,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../FCTRC/assets/languages/FCTRC.json#/FCTRC/LBL/LBL_FCTRC_DIRECCINN_36722"
+									},
+									"labelId": "LBL_FCTRC_DIRECCINN_36722",
+									"moduleId": "FCTRC"
+								},
+								"maxRecords": null,
+								"name": "direccion",
+								"options": 0,
+								"order": 5,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_DIRECCIONUUXOZZ_735301",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../FCTRC/entities/EN_CLIENTERR_422.json#/attributes/AT62_NOMBREUR422"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../FCTRC/assets/languages/FCTRC.json#/FCTRC/LBL/LBL_FCTRC_NOMBREXCI_21654"
+									},
+									"labelId": "LBL_FCTRC_NOMBREXCI_21654",
+									"moduleId": "FCTRC"
+								},
+								"maxRecords": null,
+								"name": "nombre",
+								"options": 0,
+								"order": 2,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_NOMBRELUPVUUQFD_197301",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../FCTRC/entities/EN_CLIENTERR_422.json#/attributes/AT72_TELEFONN422"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"format": "",
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../FCTRC/assets/languages/FCTRC.json#/FCTRC/LBL/LBL_FCTRC_TELEFONOO_64064"
+									},
+									"labelId": "LBL_FCTRC_TELEFONOO_64064",
+									"moduleId": "FCTRC"
+								},
+								"maxRecords": null,
+								"name": "telefono",
+								"options": 0,
+								"order": 4,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TELEFONOSNSVEDC_896301",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": null,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../FCTRC/assets/languages/FCTRC.json#/FCTRC/LBL/LBL_FCTRC_GUARDARUN_66700"
+									},
+									"labelId": "LBL_FCTRC_GUARDARUN_66700",
+									"moduleId": "FCTRC"
+								},
+								"maxRecords": null,
+								"name": "VA_VABUTTONAIWUYCT_877301",
+								"options": 0,
+								"order": 7,
+								"queryModule": null,
+								"queryVersion": null,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "A",
+									"userControlId": "Button"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_VABUTTONAIWUYCT_877301",
+								"width": null,
+								"widthComposite": "D"
+							}
+						]
+					}
+				],
+				"id": {
+					"version": "1.0.0",
+					"viewId": "VW_CLIENTEGRU_301"
+				},
+				"metadataVersion": "7.2.0.2024 BETA",
+				"modules": [
+					{
+						"moduleId": "FCTRC"
+					}
+				],
+				"name": "View of FormularioClienteGrupoA"
+			}
+		}
+	]
+}

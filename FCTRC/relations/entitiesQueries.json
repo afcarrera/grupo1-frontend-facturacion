@@ -1,4 +1,11 @@
 {
+	"EN_CLIENTERR_422": {
+		"queries": {
+			"Q_CLIENGPR_DY48": {
+				"$ref": "../FCTRS/queries/Q_CLIENGPR_DY48.json#"
+			}
+		}
+	},
 	"EN_PRODUCTGO_609": {
 		"queries": {
 			"Q_PRODCUPP_OW53": {

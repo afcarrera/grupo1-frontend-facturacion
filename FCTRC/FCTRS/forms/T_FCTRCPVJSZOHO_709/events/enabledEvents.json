@@ -1,0 +1,18 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_CLIENGPR_DY48",
+		"controlName": "EntidadClienteGrupoAQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../FCTRC/FCTRS/queries/Q_CLIENGPR_DY48.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "EntidadClienteGrupoA",
+		"eventsType": "queryEventType"
+	}
+]

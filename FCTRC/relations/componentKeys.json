@@ -1,5 +1,8 @@
 {
 	"Entities": {
+		"EN_CLIENTERR_422": {
+			"name": "EntidadClienteGrupoA"
+		},
 		"EN_PRODUCTGO_609": {
 			"name": "EntidadProductoGrupoA"
 		}
@@ -13,12 +16,21 @@
 			},
 			"T_FCTRCOQVSNDKL_447": {
 				"name": "FormularioProductoGrupoA"
+			},
+			"T_FCTRCPVJSZOHO_709": {
+				"name": "FormularioClientesGrupoA"
+			},
+			"T_FCTRCSHJHXXQL_436": {
+				"name": "FormularioClienteGrupoA"
 			}
 		},
 		"Queries": {
-			"Q_PRODCUPP_OW53": {
+			"Q_CLIENGPR_DY48": {
+				"name": "EntidadClienteGrupoAQuery"
+			},
+      "Q_PRODCUPP_OW53": {
 				"name": "ProductoGrupoAQuery"
 			}
+			}
 		}
-	}
 }

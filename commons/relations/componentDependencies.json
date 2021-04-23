@@ -2,6 +2,10 @@
 	"CompositeForms": {
 	},
 	"Entities": {
+		"EN_CLIENTERR_422": {
+			"labels": [
+			]
+		},
 		"EN_PRODUCTGO_609": {
 			"labels": [
 			]
@@ -65,12 +69,81 @@
 			},
 			"subForms": [
 			]
+		},
+		"T_FCTRCPVJSZOHO_709": {
+			"blis": [
+			],
+			"entities": {
+				"EN_CLIENTERR_422": [
+					"AT62_NOMBREUR422",
+					"AT70_CODIGOWH422",
+					"AT72_CEDULAPK422",
+					"AT72_TELEFONN422",
+					"AT79_DIRECCON422",
+					"AT87_APELLIDO422"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+			],
+			"queries": {
+				"Q_CLIENGPR_DY48": [
+					"QM_CLIEN8DYPD328_04",
+					"QM_CLIENDR8YD701_02",
+					"QM_CLIENDYDDP340_05",
+					"QM_CLIENGDGYG542_01",
+					"QM_CLIENY4DP4288_06",
+					"QM_CLIENY8GDD905_03"
+				]
+			},
+			"subForms": [
+			]
+		},
+		"T_FCTRCSHJHXXQL_436": {
+			"blis": [
+			],
+			"entities": {
+				"EN_CLIENTERR_422": [
+					"AT62_NOMBREUR422",
+					"AT72_CEDULAPK422",
+					"AT72_TELEFONN422",
+					"AT79_DIRECCON422",
+					"AT87_APELLIDO422"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_FCTRC_APELLIDOO_36938",
+				"LBL_FCTRC_CDULAFMFW_42539",
+				"LBL_FCTRC_DIRECCINN_36722",
+				"LBL_FCTRC_GUARDARUN_66700",
+				"LBL_FCTRC_NOMBREXCI_21654",
+				"LBL_FCTRC_TELEFONOO_64064"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
 		}
 	},
 	"Queries": {
-		"Q_PRODCUPP_OW53": {
+		"Q_CLIENGPR_DY48": {
+			"labels": [
+			]
+		},
+    	"Q_PRODCUPP_OW53": {
 			"labels": [
 			]
 		}
+		}
 	}
-}
