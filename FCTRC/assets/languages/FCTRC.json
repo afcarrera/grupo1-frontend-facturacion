@@ -1,10 +1,14 @@
 {
-    "FCTRC": {
-        "LBL": {
-
-        },
-        "MSG": {
-
-        }
-    }
+	"FCTRC": {
+		"LBL": {
+			"LBL_FCTRC_APELLIDOO_36938": "Apellido",
+			"LBL_FCTRC_CDULAFMFW_42539": "C\u00e9dula",
+			"LBL_FCTRC_DIRECCINN_36722": "Direcci\u00f3n",
+			"LBL_FCTRC_GUARDARUN_66700": "Guardar",
+			"LBL_FCTRC_NOMBREXCI_21654": "Nombre",
+			"LBL_FCTRC_TELEFONOO_64064": "Telefono"
+		},
+		"MSG": {
+		}
+	}
 }

@@ -41,6 +41,37 @@
 			},
 			"subForms": [
 			]
+		},
+		"T_FCTRCSHJHXXQL_436": {
+			"blis": [
+			],
+			"entities": {
+				"EN_CLIENTERR_422": [
+					"AT62_NOMBREUR422",
+					"AT72_CEDULAPK422",
+					"AT72_TELEFONN422",
+					"AT79_DIRECCON422",
+					"AT87_APELLIDO422"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_FCTRC_APELLIDOO_36938",
+				"LBL_FCTRC_CDULAFMFW_42539",
+				"LBL_FCTRC_DIRECCINN_36722",
+				"LBL_FCTRC_GUARDARUN_66700",
+				"LBL_FCTRC_NOMBREXCI_21654",
+				"LBL_FCTRC_TELEFONOO_64064"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
 		}
 	},
 	"Queries": {

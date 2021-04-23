@@ -10,6 +10,9 @@
 		"Forms": {
 			"T_FCTRCPVJSZOHO_709": {
 				"name": "FormularioClientesGrupoA"
+			},
+			"T_FCTRCSHJHXXQL_436": {
+				"name": "FormularioClienteGrupoA"
 			}
 		},
 		"Queries": {
