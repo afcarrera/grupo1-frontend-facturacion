@@ -5,5 +5,12 @@
 				"$ref": "../FCTRS/queries/Q_CLIENGPR_DY48.json#"
 			}
 		}
+	},
+	"EN_PRODUCTGO_609": {
+		"queries": {
+			"Q_PRODCUPP_OW53": {
+				"$ref": "../FCTRS/queries/Q_PRODCUPP_OW53.json#"
+			}
+		}
 	}
 }
