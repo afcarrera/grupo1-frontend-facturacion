@@ -1,13 +1,13 @@
 {
 	"entities": [
 		{
-			"entityId": "EN_1TFOHGJPI_758",
+			"entityId": "EN_DETALLEAU_899",
 			"isContextEntity": null,
 			"moduleId": "FCTRC",
 			"related": false
 		},
 		{
-			"entityId": "EN_DETALLEAU_899",
+			"entityId": "EN_IDFACTURA_470",
 			"isContextEntity": null,
 			"moduleId": "FCTRC",
 			"related": false

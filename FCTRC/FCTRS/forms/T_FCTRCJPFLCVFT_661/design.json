@@ -123,6 +123,8 @@
 							"query": {
 								"$ref": "../../../../FCTRC/FCTRS/queries/Q_DETAAERU_HX97.json#"
 							},
+							"queryId": "Q_DETAAERU_HX97",
+							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
 								{
 									"action": null,
@@ -384,7 +386,7 @@
 						],
 						"enabled": 4095,
 						"entity": {
-							"$ref": "../../../../FCTRC/entities/EN_1TFOHGJPI_758.json#"
+							"$ref": "../../../../FCTRC/entities/EN_IDFACTURA_470.json#"
 						},
 						"eventType": 0,
 						"groupId": "G_FACTURAOIP_180992",
@@ -403,39 +405,8 @@
 							{
 								"aggregate": null,
 								"aggregateId": null,
-								"attributeValidations": [
-								],
-								"colSpan": 1,
-								"componentInGrid": false,
-								"componentStyle": null,
-								"customEvents": [
-								],
-								"customizationLayer": 0,
-								"customizationLayerDescription": "ECU",
-								"include": 4095,
-								"isCustomized": false,
-								"maxRecords": null,
-								"name": "Spacer2631",
-								"options": 0,
-								"order": 3,
-								"responsiveLayouts": null,
-								"responsivity": false,
-								"sizeWidthComposite": null,
-								"style": null,
-								"userControl": {
-									"type": "I",
-									"userControlId": "Spacer"
-								},
-								"visible": 4095,
-								"visualAttributeId": "Spacer2631",
-								"width": null,
-								"widthComposite": "D"
-							},
-							{
-								"aggregate": null,
-								"aggregateId": null,
 								"attribute": {
-									"$ref": "../../../../FCTRC/entities/EN_1TFOHGJPI_758.json#/attributes/AT02_1WLMVBUT758"
+									"$ref": "../../../../FCTRC/entities/EN_IDFACTURA_470.json#/attributes/AT53_CODIGOFR470"
 								},
 								"attributeValidations": [
 								],
@@ -457,7 +428,7 @@
 									"moduleId": "FCTRC"
 								},
 								"maxRecords": null,
-								"name": "attribute1",
+								"name": "codigoFactura",
 								"options": 0,
 								"order": 2,
 								"readOnly": 8,
@@ -498,7 +469,7 @@
 									"moduleId": "FCTRC"
 								},
 								"maxRecords": null,
-								"name": "VA_VABUTTONCSCWKZK_137992",
+								"name": "",
 								"options": 0,
 								"order": 1,
 								"queryModule": null,
@@ -513,6 +484,48 @@
 								},
 								"visible": 4095,
 								"visualAttributeId": "VA_VABUTTONCSCWKZK_137992",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": null,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../FCTRC/assets/languages/FCTRC.json#/FCTRC/LBL/LBL_FCTRC_CLIENTEFC_25542"
+									},
+									"labelId": "LBL_FCTRC_CLIENTEFC_25542",
+									"moduleId": "FCTRC"
+								},
+								"maxRecords": null,
+								"name": "VA_VABUTTONVNVEJEN_144992",
+								"options": 0,
+								"order": 3,
+								"queryModule": null,
+								"queryVersion": null,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "A",
+									"userControlId": "Button"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_VABUTTONVNVEJEN_144992",
 								"width": null,
 								"widthComposite": "D"
 							}

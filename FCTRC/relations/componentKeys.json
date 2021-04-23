@@ -12,6 +12,9 @@
 		"EN_DETALLEAU_899": {
 			"name": "EntidadDetalleFactura"
 		},
+		"EN_IDFACTURA_470": {
+			"name": "EntidadIdFactura"
+		},
 		"EN_PRODUCTGO_609": {
 			"name": "EntidadProductoGrupoA"
 		}

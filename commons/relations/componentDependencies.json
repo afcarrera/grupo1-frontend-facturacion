@@ -10,25 +10,47 @@
 			"labels": [
 			]
 		},
+		"EN_IDFACTURA_470": {
+			"labels": [
+			]
+		},
 		"EN_PRODUCTGO_609": {
 			"labels": [
 			]
 		}
 	},
 	"Forms": {
-				"T_FCTRCJPFLCVFT_661": {
+		"T_FCTRCGJYDGHBJ_942": {
 			"blis": [
 			],
 			"entities": {
-				"EN_1TFOHGJPI_758": [
-					"AT02_1WLMVBUT758"
-				],
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
+		"T_FCTRCJPFLCVFT_661": {
+			"blis": [
+			],
+			"entities": {
 				"EN_DETALLEAU_899": [
 					"AT21_CANTIDAD899",
 					"AT31_PRECIOUO899",
 					"AT46_CODIGOPO899",
 					"AT63_PRODUCTT899",
 					"AT91_SUBTOTAA899"
+				],
+				"EN_IDFACTURA_470": [
+					"AT53_CODIGOFR470"
 				]
 			},
 			"externalEntities": {
@@ -38,6 +60,7 @@
 			"header": [
 			],
 			"labels": [
+				"LBL_FCTRC_CLIENTEFC_25542",
 				"LBL_FCTRC_IDLANUETA_38146",
 				"LBL_FCTRC_NUEVAFART_68286"
 			],
@@ -94,24 +117,7 @@
 			"subForms": [
 			]
 		},
-		"T_FCTRCGJYDGHBJ_942": {
-			"blis": [
-			],
-			"entities": {
-			},
-			"externalEntities": {
-			},
-			"externalQueries": {
-			},
-			"header": [
-			],
-			"labels": [
-			],
-			"queries": {
-			},
-			"subForms": [
-			]
-		},		"T_FCTRCOHOJWGYR_975": {
+		"T_FCTRCOHOJWGYR_975": {
 			"blis": [
 			],
 			"entities": {
