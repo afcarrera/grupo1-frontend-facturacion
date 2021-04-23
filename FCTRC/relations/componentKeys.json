@@ -32,5 +32,21 @@
 				"name": "ProductoGrupoAQuery"
 			}
 		}
+	},
+	"RPRTS": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_FCTRCGJYDGHBJ_942": {
+				"name": "FacturasPorCliente"
+			},
+			"T_FCTRCOWTWRCHL_571": {
+				"name": "FacturasPorFecha"
+			}
+		},
+		"Queries": {
+		},
+		"SubForms": {
+		}
 	}
 }

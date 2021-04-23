@@ -12,6 +12,24 @@
 		}
 	},
 	"Forms": {
+		"T_FCTRCGJYDGHBJ_942": {
+			"blis": [
+			],
+			"entities": {
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
 		"T_FCTRCOHOJWGYR_975": {
 			"blis": [
 			],
@@ -64,6 +82,24 @@
 				"LBL_FCTRC_GUARDARFN_62047",
 				"LBL_FCTRC_NOMBREVVS_63185",
 				"LBL_FCTRC_PRECIOIGZ_19730"
+			],
+			"queries": {
+			},
+			"subForms": [
+			]
+		},
+		"T_FCTRCOWTWRCHL_571": {
+			"blis": [
+			],
+			"entities": {
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
 			],
 			"queries": {
 			},
