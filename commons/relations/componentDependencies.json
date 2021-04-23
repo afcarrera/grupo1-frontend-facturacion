@@ -1,6 +1,52 @@
 {
-	"Entities": {},
-	"Forms": {},
-	"CompositeForms": {},
-	"Queries": {}
+	"CompositeForms": {
+	},
+	"Entities": {
+		"EN_CLIENTERR_422": {
+			"labels": [
+			]
+		}
+	},
+	"Forms": {
+		"T_FCTRCPVJSZOHO_709": {
+			"blis": [
+			],
+			"entities": {
+				"EN_CLIENTERR_422": [
+					"AT62_NOMBREUR422",
+					"AT70_CODIGOWH422",
+					"AT72_CEDULAPK422",
+					"AT72_TELEFONN422",
+					"AT79_DIRECCON422",
+					"AT87_APELLIDO422"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+			],
+			"queries": {
+				"Q_CLIENGPR_DY48": [
+					"QM_CLIEN8DYPD328_04",
+					"QM_CLIENDR8YD701_02",
+					"QM_CLIENDYDDP340_05",
+					"QM_CLIENGDGYG542_01",
+					"QM_CLIENY4DP4288_06",
+					"QM_CLIENY8GDD905_03"
+				]
+			},
+			"subForms": [
+			]
+		}
+	},
+	"Queries": {
+		"Q_CLIENGPR_DY48": {
+			"labels": [
+			]
+		}
+	}
 }

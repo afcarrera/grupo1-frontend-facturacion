@@ -1,0 +1,21 @@
+{
+	"Entities": {
+		"EN_CLIENTERR_422": {
+			"name": "EntidadClienteGrupoA"
+		}
+	},
+	"FCTRS": {
+		"CompositeForms": {
+		},
+		"Forms": {
+			"T_FCTRCPVJSZOHO_709": {
+				"name": "FormularioClientesGrupoA"
+			}
+		},
+		"Queries": {
+			"Q_CLIENGPR_DY48": {
+				"name": "EntidadClienteGrupoAQuery"
+			}
+		}
+	}
+}
