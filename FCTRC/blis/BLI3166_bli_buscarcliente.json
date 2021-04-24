@@ -5,6 +5,17 @@
 	"inputParameters": [
 		{
 			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "172472"
+		},
+		{
+			"attributeId": "",
 			"bddType": "char",
 			"dataType": "CHAR",
 			"direction": "in",
