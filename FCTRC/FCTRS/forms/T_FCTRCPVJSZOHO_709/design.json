@@ -138,6 +138,12 @@
 									"customizationLayerDescription": "ECU",
 									"enabled": "T",
 									"eventActions": [
+										{
+											"actionArgs": [
+											],
+											"actionId": "CUSTOM",
+											"actionType": "CUSTOM"
+										}
 									],
 									"executionType": 3,
 									"filter": null,
@@ -171,6 +177,12 @@
 									"customizationLayerDescription": "ECU",
 									"enabled": "T",
 									"eventActions": [
+										{
+											"actionArgs": [
+											],
+											"actionId": "CUSTOM",
+											"actionType": "CUSTOM"
+										}
 									],
 									"executionType": 3,
 									"filter": null,
@@ -183,6 +195,39 @@
 										"description": "Se ejecuta antes de que los datos modificados en una grilla sean comprometidos.",
 										"eventId": 203,
 										"name": "RowUpdating"
+									},
+									"serviceName": null,
+									"userControl": {
+										"customizationLayer": "0",
+										"customizationLayerDescription": "ECU",
+										"description": "Designer Button",
+										"type": "A",
+										"userControlId": "Button"
+									}
+								},
+								{
+									"action": null,
+									"commandImageId": null,
+									"commandName": "RowDeleting",
+									"commandOrder": null,
+									"commandType": 0,
+									"customActionId": "CEQV_204QV_ZI48_QPO61_343",
+									"customizationLayer": 0,
+									"customizationLayerDescription": "ECU",
+									"enabled": "T",
+									"eventActions": [
+									],
+									"executionType": 3,
+									"filter": null,
+									"isCustomized": false,
+									"name": "RowDeleting",
+									"options": 0,
+									"queryView": "QV_ZI48_QPO61",
+									"queryViewEventType": {
+										"availableExecutionType": 7,
+										"description": "Se ejecuta antes de que los datos eliminados en una grilla sean comprometidos.",
+										"eventId": 204,
+										"name": "RowDeleting"
 									},
 									"serviceName": null,
 									"userControl": {
