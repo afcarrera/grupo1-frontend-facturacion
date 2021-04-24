@@ -115,7 +115,7 @@
 								"style": null,
 								"userControl": {
 									"type": "I",
-									"userControlId": "DateField"
+									"userControlId": "DateTimeField"
 								},
 								"visible": 4095,
 								"visualAttributeId": "VA_1331JUQVMVIHSHA_508573",
@@ -159,7 +159,7 @@
 								"style": null,
 								"userControl": {
 									"type": "I",
-									"userControlId": "DateField"
+									"userControlId": "DateTimeField"
 								},
 								"visible": 4095,
 								"visualAttributeId": "VA_3369OMAPQDWBBGI_140573",

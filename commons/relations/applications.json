@@ -5,7 +5,7 @@
 		"forms": {
 			"FCTRC": [
 				{
-					"generated": 0,
+					"generated": 4,
 					"moduleId": "FCTRC",
 					"name": "FacturasPorCliente",
 					"subModuleId": "RPRTS",
@@ -13,7 +13,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 0,
+					"generated": 4,
 					"moduleId": "FCTRC",
 					"name": "FormularioFacturacionGrupoA",
 					"subModuleId": "FCTRS",
@@ -37,7 +37,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 0,
+					"generated": 4,
 					"moduleId": "FCTRC",
 					"name": "FormularioProductoGrupoA",
 					"subModuleId": "FCTRS",
@@ -53,7 +53,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 0,
+					"generated": 4,
 					"moduleId": "FCTRC",
 					"name": "FormularioClientesGrupoA",
 					"subModuleId": "FCTRS",
