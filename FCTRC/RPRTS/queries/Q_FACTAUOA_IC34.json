@@ -1,0 +1,159 @@
+{
+	"customEvents": [
+		{
+			"customEventId": "CEQY_130_Q_FACTAUOA_IC34_519",
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": "T",
+			"eventActions": [
+				{
+					"actionArgs": [
+					],
+					"actionId": "CUSTOM",
+					"actionType": "CUSTOM"
+				}
+			],
+			"executionType": 3,
+			"queryEventType": {
+				"availableExecutionType": 7,
+				"description": "Sobreescribe la ejecuci\u00f3n de un Query",
+				"eventId": 130,
+				"name": "ExecuteQuery"
+			}
+		}
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"id": {
+		"queryId": "Q_FACTAUOA_IC34",
+		"version": "1.0.0"
+	},
+	"isAutomatic": false,
+	"isImported": false,
+	"mainEntityId": "EN_FACTURANU_162",
+	"mainEntityModule": "FCTRC",
+	"mainEntityName": {
+		"$ref": "../../../FCTRC/relations/componentKeys.json#/Entities/EN_FACTURANU_162/name"
+	},
+	"mainEntityVersion": "1.0.0",
+	"name": {
+		"$ref": "../../../FCTRC/relations/componentKeys.json#/RPRTS/Queries/Q_FACTAUOA_IC34/name"
+	},
+	"queryMembers": [
+		{
+			"alias": "totalFactura",
+			"attribute": {
+				"$ref": "../../../FCTRC/entities/EN_FACTURANU_162.json#/attributes/AT21_TOTALFTT162"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"label": null,
+			"operator": null,
+			"order": "4",
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_FACTA33AIO806_05",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "fechaFactura",
+			"attribute": {
+				"$ref": "../../../FCTRC/entities/EN_FACTURANU_162.json#/attributes/AT51_FECHAFCR162"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"label": null,
+			"operator": null,
+			"order": "3",
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_FACTAA3AI3871_04",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "nombreCliente",
+			"attribute": {
+				"$ref": "../../../FCTRC/entities/EN_FACTURANU_162.json#/attributes/AT86_NOMBREII162"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"label": null,
+			"operator": null,
+			"order": "1",
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_FACTAI33IU801_02",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "codigoFactura",
+			"attribute": {
+				"$ref": "../../../FCTRC/entities/EN_FACTURANU_162.json#/attributes/AT33_CODIGOTA162"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"label": null,
+			"operator": null,
+			"order": "0",
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_FACTAICAOI490_01",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "apellidoCliente",
+			"attribute": {
+				"$ref": "../../../FCTRC/entities/EN_FACTURANU_162.json#/attributes/AT56_APELLITE162"
+			},
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"label": null,
+			"operator": null,
+			"order": "2",
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_FACTAUCA44184_03",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		}
+	],
+	"related": false,
+	"sqlWhere": null,
+	"subModules": [
+		{
+			"id": {
+				"moduleId": "FCTRC",
+				"subModuleId": "RPRTS"
+			}
+		}
+	]
+}

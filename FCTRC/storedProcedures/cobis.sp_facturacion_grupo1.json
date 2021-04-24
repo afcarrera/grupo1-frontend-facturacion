@@ -1,0 +1,142 @@
+{
+	"filename": "C:\\Users\\Andres Jr\\Desktop\\SQL-Cap\\sp_facturacion_grupo1.sql",
+	"procedure": {
+		"database": "cobis",
+		"name": "sp_facturacion_grupo1",
+		"owner": "dbo",
+		"parameters": [
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_file"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@t_trn"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@t_debug"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@t_from"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@i_codigo_cliente"
+			},
+			{
+				"dataType": "date",
+				"direction": "in",
+				"name": "@i_fecha"
+			},
+			{
+				"dataType": "money",
+				"direction": "in",
+				"name": "@i_total"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_estado"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_codigo_producto"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@i_codigo_factura"
+			},
+			{
+				"dataType": "int",
+				"direction": "in",
+				"name": "@i_cantidad"
+			},
+			{
+				"dataType": "date",
+				"direction": "in",
+				"name": "@i_fecha_desde"
+			},
+			{
+				"dataType": "date",
+				"direction": "in",
+				"name": "@i_fecha_hasta"
+			},
+			{
+				"dataType": "char",
+				"direction": "in",
+				"name": "@i_operacion"
+			},
+			{
+				"dataType": "varchar",
+				"direction": "in",
+				"name": "@i_cedula"
+			},
+			{
+				"dataType": "int",
+				"direction": "out",
+				"name": "@o_codigo"
+			}
+		],
+		"queries": [
+			{
+				"_idQuery": "9a1703cc-b9d0-49e5-b93e-f7be50ee9740",
+				"columns": [
+					"{0}",
+					"{1}",
+					"{2}",
+					"{3}",
+					"{4}"
+				],
+				"editMode": false,
+				"queryText": "select cf_codigo,cl_nombre,cl_apellido,cf_fecha,cf_total\r\n\tfrom"
+			},
+			{
+				"_idQuery": "c8548d23-084a-4fce-8bcb-21f4abd8dd65",
+				"columns": [
+					"{0}",
+					"{1}",
+					"{2}",
+					"{3}",
+					"{4}"
+				],
+				"editMode": false,
+				"queryText": "select cf_codigo, cl_nombre,cl_apellido,cf_fecha,cf_total\r\n\tfrom"
+			}
+		],
+		"variables": [
+			{
+				"dataType": "int",
+				"name": "@w_error"
+			},
+			{
+				"dataType": "money",
+				"name": "@w_precio"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_return"
+			},
+			{
+				"dataType": "int",
+				"name": "@w_secuencia"
+			},
+			{
+				"dataType": "varchar",
+				"name": "@w_sp_name"
+			},
+			{
+				"dataType": "money",
+				"name": "@w_total"
+			}
+		]
+	}
+}

@@ -16,6 +16,13 @@
 			}
 		}
 	},
+	"EN_FACTURANU_162": {
+		"queries": {
+			"Q_FACTAUOA_IC34": {
+				"$ref": "../RPRTS/queries/Q_FACTAUOA_IC34.json#"
+			}
+		}
+	},
 	"EN_PRODUCTGO_609": {
 		"queries": {
 			"Q_PRODCUPP_OW53": {
