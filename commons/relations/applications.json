@@ -25,7 +25,8 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,					"moduleId": "FCTRC",
+					"generated": 4,					
+					"moduleId": "FCTRC",
 					"moduleName": "FACTURACION",
 					"name": "FormularioFacturacionClientesGrupoA",
 					"subModuleId": "FCTRS",
@@ -45,7 +46,6 @@
 					"type": "Simple form"
 				},
 				{
-					,
 					"generated": 4,
 					"moduleId": "FCTRC",
 					"moduleName": "FACTURACION",
