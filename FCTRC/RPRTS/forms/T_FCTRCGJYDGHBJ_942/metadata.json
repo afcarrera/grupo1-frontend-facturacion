@@ -5,8 +5,20 @@
 			"isContextEntity": null,
 			"moduleId": "FCTRC",
 			"related": false
+		},
+		{
+			"entityId": "EN_FACTURANU_162",
+			"isContextEntity": null,
+			"moduleId": "FCTRC",
+			"related": false
 		}
 	],
 	"queries": [
+		{
+			"moduleId": "FCTRC",
+			"queryId": "Q_FACTAUOA_IC34",
+			"related": false,
+			"subModuleId": "RPRTS"
+		}
 	]
 }

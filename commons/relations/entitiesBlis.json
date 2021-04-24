@@ -18,21 +18,38 @@
 			"nameBli": "BLI_RecuperarClientes"
 		},
 		{
-            "entities": {
-                "inputEntity": [
-                    {
-                        "entityId": "EN_PRODUCTGO_609",
-                        "moduleId": "FCTRC",
-                        "related": false
-                    }
-                ],
-                "outputEntity": [
-                ],
-                "returnEntity": [
-                ]
-            },
-            "idBli": "BLI8041_bli_registrarproducto",
-            "nameBli": "BLI_RegistrarProducto"
-        }
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_PRODUCTGO_609",
+						"moduleId": "FCTRC",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI8041_bli_registrarproducto",
+			"nameBli": "BLI_RegistrarProducto"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_FACTURANU_162",
+						"moduleId": "FCTRC",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI8855_bli_buscarcedulafacturacion",
+			"nameBli": "BLI_BuscarCedulaFacturacion"
+		}
 	]
 }

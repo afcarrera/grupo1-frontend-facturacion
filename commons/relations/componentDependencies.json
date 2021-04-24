@@ -14,11 +14,15 @@
 			"labels": [
 			]
 		},
-		"EN_FECHASBOU_205": {
+		"EN_DETALLEAU_899": {
 			"labels": [
 			]
 		},
-		"EN_DETALLEAU_899": {
+		"EN_FACTURANU_162": {
+			"labels": [
+			]
+		},
+		"EN_FECHASBOU_205": {
 			"labels": [
 			]
 		},
@@ -38,6 +42,13 @@
 			"entities": {
 				"EN_CEDULABRS_834": [
 					"AT62_CEDULAUU834"
+				],
+				"EN_FACTURANU_162": [
+					"AT21_TOTALFTT162",
+					"AT33_CODIGOTA162",
+					"AT51_FECHAFCR162",
+					"AT56_APELLITE162",
+					"AT86_NOMBREII162"
 				]
 			},
 			"externalEntities": {
@@ -51,6 +62,15 @@
 				"LBL_FCTRC_CEDULAGXY_22401"
 			],
 			"queries": {
+				"Q_FACTAUOA_IC34": [
+					"",
+					"",
+					"QM_FACTA33AIO806_05",
+					"QM_FACTAA3AI3871_04",
+					"QM_FACTAI33IU801_02",
+					"QM_FACTAICAOI490_01",
+					"QM_FACTAUCA44184_03"
+				]
 			},
 			"subForms": [
 			]
@@ -293,6 +313,10 @@
 			]
 		},
 		"Q_DETAAERU_HX97": {
+			"labels": [
+			]
+		},
+		"Q_FACTAUOA_IC34": {
 			"labels": [
 			]
 		},
