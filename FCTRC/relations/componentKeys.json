@@ -1,11 +1,5 @@
 {
 	"Entities": {
-		"EN_1TFOHGJPI_758": {
-			"name": "Entity1"
-		},
-		"EN_2YVDEDDPV_789": {
-			"name": "Entity2"
-		},
 		"EN_CLIENTEDS_562": {
 			"name": "EntidadClienteBusquedaGrupoA"
 		},
