@@ -71,6 +71,23 @@
 		{
 			"entities": {
 				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_FACTURANU_162",
+						"moduleId": "FCTRC",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI8855_bli_buscarcedulafacturacion",
+			"nameBli": "BLI_BuscarCedulaFacturacion"
+		},
+		{
+			"entities": {
+				"inputEntity": [
 					{
 						"entityId": "EN_PRODUCTGO_609",
 						"moduleId": "FCTRC",
