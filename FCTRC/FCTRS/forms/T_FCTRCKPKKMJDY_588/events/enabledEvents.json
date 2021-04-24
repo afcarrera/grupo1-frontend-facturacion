@@ -14,5 +14,19 @@
 		],
 		"entityName": "EntidadClienteGrupoA",
 		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONWLKKQSA_336924",
+		"controlName": "",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 1
+			}
+		],
+		"entityName": "EntidadClienteBusquedaGrupoA",
+		"eventsType": "visualAttributeEventType"
 	}
 ]

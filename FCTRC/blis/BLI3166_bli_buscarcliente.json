@@ -1,0 +1,137 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "172472"
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "Q"
+		},
+		{
+			"attributeId": "",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_nombre_busqueda",
+			"type": "CUSTOM",
+			"value": "nombre"
+		}
+	],
+	"name": "BLI_BuscarCliente",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI3166_bli_buscarcliente",
+	"patternName": "BLI_BuscarCliente",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "0d280fe0-2ac2-40e6-92a0-29f59ab3f7bb",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 3,
+			"queryName": "select\r\n\t\t\u0027codigo\u0027\t= cl_codigo,\r\n\t\t\u0027cedula\u0027\t= cl_cedula,\r\n\t\t\u0027nombre\u0027\t= cl_nombre,\r\n\t\t\u0027apellido\u0027\t= cl_apellido,\r\n\t\t\u0027direccion\u0027\t= cl_direccion,\r\n\t\t\u0027telefono\u0027\t= cl_telefono,\r\n\t\t\u0027estado\u0027\t= cl_estado\r\n\tfrom"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "0d280fe0-2ac2-40e6-92a0-29f59ab3f7bb",
+			"columns": [
+				{
+					"attributeId": "AT70_CODIGOWH422",
+					"entityId": "EN_CLIENTERR_422",
+					"format": "",
+					"name": "codigo",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT72_CEDULAPK422",
+					"entityId": "EN_CLIENTERR_422",
+					"format": "",
+					"name": "cedula",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT62_NOMBREUR422",
+					"entityId": "EN_CLIENTERR_422",
+					"format": "",
+					"name": "nombre",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT87_APELLIDO422",
+					"entityId": "EN_CLIENTERR_422",
+					"format": "",
+					"name": "apellido",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT79_DIRECCON422",
+					"entityId": "EN_CLIENTERR_422",
+					"format": "",
+					"name": "direccion",
+					"position": 5,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT72_TELEFONN422",
+					"entityId": "EN_CLIENTERR_422",
+					"format": "",
+					"name": "telefono",
+					"position": 6,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT33_ESTADOTR422",
+					"entityId": "EN_CLIENTERR_422",
+					"format": "",
+					"name": "estado",
+					"position": 7,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_CLIENTERR_422",
+			"module": {
+				"moduleId": "FCTRC",
+				"moduleName": "FACTURACION"
+			},
+			"name": "EntidadClienteGrupoA"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_cliente_grupo1",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}
