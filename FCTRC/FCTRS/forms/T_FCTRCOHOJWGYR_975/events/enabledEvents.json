@@ -28,5 +28,19 @@
 		],
 		"entityName": "EntidadProductoGrupoA",
 		"eventsType": "queryViewEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_PRODUCTOSS_974975",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "onCloseModal",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
 	}
 ]
