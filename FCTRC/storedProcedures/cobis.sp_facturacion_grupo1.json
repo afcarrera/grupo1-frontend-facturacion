@@ -1,5 +1,5 @@
 {
-	"filename": "C:\\Users\\Andres Jr\\Desktop\\SQL-Cap\\sp_facturacion_grupo1.sql",
+	"filename": "C:\\Users\\Usuario\\Desktop\\Nuevacarpeta\\git\\SPS_Viernes\\sp_facturacion_grupo1.sql",
 	"procedure": {
 		"database": "cobis",
 		"name": "sp_facturacion_grupo1",
@@ -61,12 +61,12 @@
 				"name": "@i_cantidad"
 			},
 			{
-				"dataType": "date",
+				"dataType": "varchar",
 				"direction": "in",
 				"name": "@i_fecha_desde"
 			},
 			{
-				"dataType": "date",
+				"dataType": "varchar",
 				"direction": "in",
 				"name": "@i_fecha_hasta"
 			},
@@ -88,7 +88,7 @@
 		],
 		"queries": [
 			{
-				"_idQuery": "9a1703cc-b9d0-49e5-b93e-f7be50ee9740",
+				"_idQuery": "d581a716-fc65-4b49-99bb-5dcf0ee82c51",
 				"columns": [
 					"{0}",
 					"{1}",
@@ -100,7 +100,7 @@
 				"queryText": "select cf_codigo,cl_nombre,cl_apellido,cf_fecha,cf_total\r\n\tfrom"
 			},
 			{
-				"_idQuery": "c8548d23-084a-4fce-8bcb-21f4abd8dd65",
+				"_idQuery": "5f79a33b-3f48-44c0-a8d0-5753700634db",
 				"columns": [
 					"{0}",
 					"{1}",

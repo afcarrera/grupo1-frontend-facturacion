@@ -1,0 +1,132 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "172474"
+		},
+		{
+			"attributeId": "",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_fecha_desde",
+			"type": "CUSTOM",
+			"value": "fechaDesde"
+		},
+		{
+			"attributeId": "",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_fecha_hasta",
+			"type": "CUSTOM",
+			"value": "fechaHasta"
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "F"
+		}
+	],
+	"name": "BLI_RecuperarFacturas",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI8123_bli_recuperarfacturas",
+	"patternName": "BLI_RecuperarFacturas",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "5f79a33b-3f48-44c0-a8d0-5753700634db",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 2,
+			"queryName": "select cf_codigo, cl_nombre,cl_apellido,cf_fecha,cf_total\r\n\tfrom"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "5f79a33b-3f48-44c0-a8d0-5753700634db",
+			"columns": [
+				{
+					"attributeId": "AT33_CODIGOTA162",
+					"entityId": "EN_FACTURANU_162",
+					"format": "",
+					"name": "{0}",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT86_NOMBREII162",
+					"entityId": "EN_FACTURANU_162",
+					"format": "",
+					"name": "{1}",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT56_APELLITE162",
+					"entityId": "EN_FACTURANU_162",
+					"format": "",
+					"name": "{2}",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT51_FECHAFCR162",
+					"entityId": "EN_FACTURANU_162",
+					"format": "",
+					"name": "{3}",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT21_TOTALFTT162",
+					"entityId": "EN_FACTURANU_162",
+					"format": "",
+					"name": "{4}",
+					"position": 5,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_FACTURANU_162",
+			"module": {
+				"moduleId": "FCTRC",
+				"moduleName": "FACTURACION"
+			},
+			"name": "EntidadFacturacionGrupoA"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_facturacion_grupo1",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}
