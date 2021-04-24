@@ -31,9 +31,6 @@
 				{
 					"generated": 4,
 					"moduleId": "FCTRC",
-
-					"moduleName": "FACTURACION",
-
 					"name": "FormularioProductosGrupoA",
 					"subModuleId": "FCTRS",
 					"taskId": "T_FCTRCOHOJWGYR_975",
@@ -50,7 +47,6 @@
 				{
 					"generated": 4,
 					"moduleId": "FCTRC",
-
 					"name": "FacturasPorFecha",
 					"subModuleId": "RPRTS",
 					"taskId": "T_FCTRCOWTWRCHL_571",
@@ -67,9 +63,6 @@
 				{
 					"generated": 4,
 					"moduleId": "FCTRC",
-
-					"moduleName": "FACTURACION",
-
 					"name": "FormularioClienteGrupoA",
 					"subModuleId": "FCTRS",
 					"taskId": "T_FCTRCSHJHXXQL_436",
