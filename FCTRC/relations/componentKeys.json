@@ -77,6 +77,9 @@
 		"Queries": {
 			"Q_FACTAUOA_IC34": {
 				"name": "EntidadFacturacionGrupoAQuery"
+			},
+			"Q_FACTIUPG_WC96": {
+				"name": "EntidadFacturacionGrupoAFechasQuery"
 			}
 		},
 		"SubForms": {
