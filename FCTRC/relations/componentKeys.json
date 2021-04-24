@@ -1,5 +1,6 @@
 {
 	"Entities": {
+
 		"EN_CEDULABRS_834": {
 			"name": "CedulaBusquedaGrupoA"
 		},
@@ -11,6 +12,9 @@
 		},
 		"EN_DETALLEAU_899": {
 			"name": "EntidadDetalleFactura"
+		},
+		"EN_FACTURANU_162": {
+			"name": "EntidadFacturacionGrupoA"
 		},
 		"EN_FECHASBOU_205": {
 			"name": "FechasBusquedaGrupoA"
@@ -72,6 +76,9 @@
 			}
 		},
 		"Queries": {
+			"Q_FACTAUOA_IC34": {
+				"name": "EntidadFacturacionGrupoAQuery"
+			}
 		},
 		"SubForms": {
 		}
