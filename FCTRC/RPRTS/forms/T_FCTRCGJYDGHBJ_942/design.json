@@ -122,6 +122,8 @@
 							"query": {
 								"$ref": "../../../../FCTRC/RPRTS/queries/Q_FACTAUOA_IC34.json#"
 							},
+							"queryId": "Q_FACTAUOA_IC34",
+							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
 							],
 							"queryViewId": "QV_SY34_JER14",

@@ -7,64 +7,80 @@
 				{
 					"generated": 0,
 					"moduleId": "FCTRC",
+					"moduleName": "FACTURACION",
 					"name": "FacturasPorCliente",
 					"subModuleId": "RPRTS",
+					"subModuleName": "REPORTES",
 					"taskId": "T_FCTRCGJYDGHBJ_942",
 					"type": "Simple form"
 				},
 				{
-					"generated": 0,
+					"generated": 4,
 					"moduleId": "FCTRC",
+					"moduleName": "FACTURACION",
 					"name": "FormularioFacturacionGrupoA",
 					"subModuleId": "FCTRS",
+					"subModuleName": "FACTURAS",
 					"taskId": "T_FCTRCJPFLCVFT_661",
 					"type": "Simple form"
 				},
 				{
-					"generated": 0,
+					"generated": 4,
 					"moduleId": "FCTRC",
+					"moduleName": "FACTURACION",
 					"name": "FormularioFacturacionClientesGrupoA",
 					"subModuleId": "FCTRS",
+					"subModuleName": "FACTURAS",
 					"taskId": "T_FCTRCKPKKMJDY_588",
 					"type": "Simple form"
 				},
 				{
-					"generated": 2,
+					"generated": 4,
 					"moduleId": "FCTRC",
+					"moduleName": "FACTURACION",
 					"name": "FormularioProductosGrupoA",
 					"subModuleId": "FCTRS",
+					"subModuleName": "FACTURAS",
 					"taskId": "T_FCTRCOHOJWGYR_975",
 					"type": "Simple form"
 				},
 				{
-					"generated": 2,
+					"generated": 4,
 					"moduleId": "FCTRC",
+					"moduleName": "FACTURACION",
 					"name": "FormularioProductoGrupoA",
 					"subModuleId": "FCTRS",
+					"subModuleName": "FACTURAS",
 					"taskId": "T_FCTRCOQVSNDKL_447",
 					"type": "Simple form"
 				},
 				{
-					"generated": 0,
+					"generated": 4,
 					"moduleId": "FCTRC",
+					"moduleName": "FACTURACION",
 					"name": "FacturasPorFecha",
 					"subModuleId": "RPRTS",
+					"subModuleName": "REPORTES",
 					"taskId": "T_FCTRCOWTWRCHL_571",
 					"type": "Simple form"
 				},
 				{
-					"generated": 2,
+					"generated": 4,
 					"moduleId": "FCTRC",
+					"moduleName": "FACTURACION",
 					"name": "FormularioClientesGrupoA",
 					"subModuleId": "FCTRS",
+					"subModuleName": "FACTURAS",
 					"taskId": "T_FCTRCPVJSZOHO_709",
 					"type": "Simple form"
 				},
 				{
-					"generated": 2,
+					"generated": 4,
 					"moduleId": "FCTRC",
+					"moduleName": "FACTURACION",
 					"name": "FormularioClienteGrupoA",
 					"subModuleId": "FCTRS",
+					"subModuleName": "FACTURAS",
 					"taskId": "T_FCTRCSHJHXXQL_436",
 					"type": "Simple form"
 				}
