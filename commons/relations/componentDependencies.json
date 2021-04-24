@@ -14,15 +14,11 @@
 			"labels": [
 			]
 		},
-		"EN_DETALLEAU_899": {
-			"labels": [
-			]
-		},
-		"EN_FACTURANU_162": {
-			"labels": [
-			]
-		},
 		"EN_FECHASBOU_205": {
+			"labels": [
+			]
+		},
+		"EN_DETALLEAU_899": {
 			"labels": [
 			]
 		},
@@ -204,6 +200,7 @@
 			"header": [
 			],
 			"labels": [
+				"LBL_FCTRC_ACTUALIRZ_84727",
 				"LBL_FCTRC_CDIGOMIIH_34634",
 				"LBL_FCTRC_GUARDARFN_62047",
 				"LBL_FCTRC_NOMBREVVS_63185",

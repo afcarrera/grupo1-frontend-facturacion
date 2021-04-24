@@ -1,16 +1,44 @@
 [
 	{
 		"attributeName": "",
+		"controlId": "VA_VABUTTONJLEBPEL_592579",
+		"controlName": "VA_VABUTTONJLEBPEL_592579",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 7
+			}
+		],
+		"entityName": "EntidadProductoGrupoA",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
 		"controlId": "VA_VABUTTONXQIQBYN_646579",
 		"controlName": "VA_VABUTTONXQIQBYN_646579",
 		"controlType": "Button",
 		"customEvents": [
 			{
 				"eventName": "executeCommand",
-				"executionType": 3
+				"executionType": 7
 			}
 		],
 		"entityName": "EntidadProductoGrupoA",
 		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VC_PRODUCTORG_818447",
+		"controlName": "",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "initData",
+				"executionType": 1
+			}
+		],
+		"entityName": "",
+		"eventsType": "viewContainerEventType"
 	}
 ]
