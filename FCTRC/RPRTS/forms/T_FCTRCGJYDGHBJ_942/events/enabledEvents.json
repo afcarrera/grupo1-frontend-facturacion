@@ -1,2 +1,18 @@
 [
+	{
+		"attributeName": "",
+		"controlId": "Q_FACTAUOA_IC34",
+		"controlName": "EntidadFacturacionGrupoAQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../FCTRC/RPRTS/queries/Q_FACTAUOA_IC34.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "EntidadFacturacionGrupoA",
+		"eventsType": "queryEventType"
+	}
 ]

@@ -2,6 +2,10 @@
 	"CompositeForms": {
 	},
 	"Entities": {
+		"EN_CEDULABRS_834": {
+			"labels": [
+			]
+		},
 		"EN_CLIENTEDS_562": {
 			"labels": [
 			]
@@ -11,6 +15,14 @@
 			]
 		},
 		"EN_DETALLEAU_899": {
+			"labels": [
+			]
+		},
+		"EN_FACTURANU_162": {
+			"labels": [
+			]
+		},
+		"EN_FECHASBOU_205": {
 			"labels": [
 			]
 		},
@@ -28,6 +40,16 @@
 			"blis": [
 			],
 			"entities": {
+				"EN_CEDULABRS_834": [
+					"AT62_CEDULAUU834"
+				],
+				"EN_FACTURANU_162": [
+					"AT21_TOTALFTT162",
+					"AT33_CODIGOTA162",
+					"AT51_FECHAFCR162",
+					"AT56_APELLITE162",
+					"AT86_NOMBREII162"
+				]
 			},
 			"externalEntities": {
 			},
@@ -36,8 +58,21 @@
 			"header": [
 			],
 			"labels": [
+				"LBL_FCTRC_BUSCARWQB_95372",
+				"LBL_FCTRC_CEDULAGXY_22401"
 			],
 			"queries": {
+				"Q_FACTAUOA_IC34": [
+					"",
+					"",
+					"",
+					"",
+					"QM_FACTA33AIO806_05",
+					"QM_FACTAA3AI3871_04",
+					"QM_FACTAI33IU801_02",
+					"QM_FACTAICAOI490_01",
+					"QM_FACTAUCA44184_03"
+				]
 			},
 			"subForms": [
 			]
@@ -183,6 +218,10 @@
 			"blis": [
 			],
 			"entities": {
+				"EN_FECHASBOU_205": [
+					"AT64_FECHAFIN205",
+					"AT93_FECHAICO205"
+				]
 			},
 			"externalEntities": {
 			},
@@ -191,6 +230,9 @@
 			"header": [
 			],
 			"labels": [
+				"LBL_FCTRC_BUSCARWQB_95372",
+				"LBL_FCTRC_FECHAFINN_60757",
+				"LBL_FCTRC_FECHAINIO_78143"
 			],
 			"queries": {
 			},
@@ -273,6 +315,10 @@
 			]
 		},
 		"Q_DETAAERU_HX97": {
+			"labels": [
+			]
+		},
+		"Q_FACTAUOA_IC34": {
 			"labels": [
 			]
 		},

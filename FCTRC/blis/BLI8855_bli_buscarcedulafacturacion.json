@@ -1,0 +1,121 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "172474"
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "C"
+		},
+		{
+			"attributeId": "",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_cedula",
+			"type": "CUSTOM",
+			"value": "cedula"
+		}
+	],
+	"name": "BLI_BuscarCedulaFacturacion",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI8855_bli_buscarcedulafacturacion",
+	"patternName": "BLI_BuscarCedulaFacturacion",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "9a1703cc-b9d0-49e5-b93e-f7be50ee9740",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 1,
+			"queryName": "select cf_codigo,cl_nombre,cl_apellido,cf_fecha,cf_total\r\n\tfrom"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "9a1703cc-b9d0-49e5-b93e-f7be50ee9740",
+			"columns": [
+				{
+					"attributeId": "AT33_CODIGOTA162",
+					"entityId": "EN_FACTURANU_162",
+					"format": "",
+					"name": "{0}",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT86_NOMBREII162",
+					"entityId": "EN_FACTURANU_162",
+					"format": "",
+					"name": "{1}",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT56_APELLITE162",
+					"entityId": "EN_FACTURANU_162",
+					"format": "",
+					"name": "{2}",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT51_FECHAFCR162",
+					"entityId": "EN_FACTURANU_162",
+					"format": "dd/MM/yyyy",
+					"name": "{3}",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT21_TOTALFTT162",
+					"entityId": "EN_FACTURANU_162",
+					"format": "",
+					"name": "{4}",
+					"position": 5,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_FACTURANU_162",
+			"module": {
+				"moduleId": "FCTRC",
+				"moduleName": "FACTURACION"
+			},
+			"name": "EntidadFacturacionGrupoA"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_facturacion_grupo1",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}
