@@ -14,5 +14,27 @@
 		],
 		"entityName": "EntidadClienteGrupoA",
 		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "QV_ZI48_QPO61",
+		"controlName": "QV_ZI48_QPO61",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "rowDeleting",
+				"executionType": 3
+			},
+			{
+				"eventName": "rowInserting",
+				"executionType": 3
+			},
+			{
+				"eventName": "rowUpdating",
+				"executionType": 3
+			}
+		],
+		"entityName": "EntidadClienteGrupoA",
+		"eventsType": "queryViewEventType"
 	}
 ]
