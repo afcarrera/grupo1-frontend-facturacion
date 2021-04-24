@@ -22,6 +22,10 @@
 		"controlType": "",
 		"customEvents": [
 			{
+				"eventName": "rowDeleting",
+				"executionType": 3
+			},
+			{
 				"eventName": "rowInserting",
 				"executionType": 3
 			},
