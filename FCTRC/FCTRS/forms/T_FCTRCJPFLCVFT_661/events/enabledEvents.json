@@ -1,0 +1,46 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_DETAAERU_HX97",
+		"controlName": "DetalleFacturacionGrupoAQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../FCTRC/FCTRS/queries/Q_DETAAERU_HX97.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "EntidadDetalleFactura",
+		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONCSCWKZK_137992",
+		"controlName": "",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 1
+			}
+		],
+		"entityName": "EntidadIdFactura",
+		"eventsType": "visualAttributeEventType"
+	},
+	{
+		"attributeName": "",
+		"controlId": "VA_VABUTTONVNVEJEN_144992",
+		"controlName": "VA_VABUTTONVNVEJEN_144992",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "executeCommand",
+				"executionType": 1
+			}
+		],
+		"entityName": "EntidadIdFactura",
+		"eventsType": "visualAttributeEventType"
+	}
+]

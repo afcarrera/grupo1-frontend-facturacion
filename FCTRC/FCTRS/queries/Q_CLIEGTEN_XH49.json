@@ -1,0 +1,211 @@
+{
+	"customEvents": [
+		{
+			"customEventId": "CEQY_130_Q_CLIEGTEN_XH49_593",
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": "T",
+			"eventActions": [
+				{
+					"actionArgs": [
+					],
+					"actionId": "CUSTOM",
+					"actionType": "CUSTOM"
+				}
+			],
+			"executionType": 3,
+			"queryEventType": {
+				"availableExecutionType": 7,
+				"description": "Sobreescribe la ejecuci\u00f3n de un Query",
+				"eventId": 130,
+				"name": "ExecuteQuery"
+			}
+		}
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"hasEvents": true,
+	"id": {
+		"queryId": "Q_CLIEGTEN_XH49",
+		"version": "1.0.0"
+	},
+	"isAutomatic": false,
+	"isImported": false,
+	"mainEntityId": "EN_CLIENTERR_422",
+	"mainEntityModule": "FCTRC",
+	"mainEntityName": {
+		"$ref": "../../../FCTRC/relations/componentKeys.json#/Entities/EN_CLIENTERR_422/name"
+	},
+	"mainEntityVersion": "1.0.0",
+	"name": {
+		"$ref": "../../../FCTRC/relations/componentKeys.json#/FCTRS/Queries/Q_CLIEGTEN_XH49/name"
+	},
+	"queryMembers": [
+		{
+			"alias": "estado",
+			"attribute": {
+				"$ref": "../../../FCTRC/entities/EN_CLIENTERR_422.json#/attributes/AT33_ESTADOTR422"
+			},
+			"attributeQuery": "estado",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": "",
+			"defaultValueDataType": "",
+			"function": "",
+			"label": null,
+			"name": "QueryMember",
+			"operator": "",
+			"order": 6,
+			"orderBy": "",
+			"orderByDirection": "",
+			"queryMemberId": "QM_CLIEG4ENXN204_01",
+			"select": false,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "apellido",
+			"attribute": {
+				"$ref": "../../../FCTRC/entities/EN_CLIENTERR_422.json#/attributes/AT87_APELLIDO422"
+			},
+			"attributeQuery": "apellido",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"name": "QueryMember",
+			"operator": null,
+			"order": 4,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEG4NNE4434_07",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "direccion",
+			"attribute": {
+				"$ref": "../../../FCTRC/entities/EN_CLIENTERR_422.json#/attributes/AT79_DIRECCON422"
+			},
+			"attributeQuery": "direccion",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"name": "QueryMember",
+			"operator": null,
+			"order": 5,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEG94999995_06",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "telefono",
+			"attribute": {
+				"$ref": "../../../FCTRC/entities/EN_CLIENTERR_422.json#/attributes/AT72_TELEFONN422"
+			},
+			"attributeQuery": "telefono",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"name": "QueryMember",
+			"operator": null,
+			"order": 6,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEGEHT4H312_05",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "cedula",
+			"attribute": {
+				"$ref": "../../../FCTRC/entities/EN_CLIENTERR_422.json#/attributes/AT72_CEDULAPK422"
+			},
+			"attributeQuery": "cedula",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"name": "QueryMember",
+			"operator": null,
+			"order": 2,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEGHTHHX574_04",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "nombre",
+			"attribute": {
+				"$ref": "../../../FCTRC/entities/EN_CLIENTERR_422.json#/attributes/AT62_NOMBREUR422"
+			},
+			"attributeQuery": "nombre",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"name": "QueryMember",
+			"operator": null,
+			"order": 3,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_CLIEGTEHN9976_02",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "codigo",
+			"attribute": {
+				"$ref": "../../../FCTRC/entities/EN_CLIENTERR_422.json#/attributes/AT70_CODIGOWH422"
+			},
+			"attributeQuery": "codigo",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": "",
+			"defaultValueDataType": "",
+			"function": "",
+			"label": null,
+			"name": "QueryMember",
+			"operator": "",
+			"order": 7,
+			"orderBy": "",
+			"orderByDirection": "",
+			"queryMemberId": "QM_CLIEGX9XTE425_03",
+			"select": false,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		}
+	],
+	"related": false,
+	"sqlWhere": null,
+	"subModules": [
+		{
+			"id": {
+				"moduleId": "FCTRC",
+				"subModuleId": "FCTRS"
+			}
+		}
+	]
+}

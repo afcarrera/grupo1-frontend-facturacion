@@ -1,0 +1,24 @@
+{
+	"entities": [
+		{
+			"entityId": "EN_CLIENTEDS_562",
+			"isContextEntity": null,
+			"moduleId": "FCTRC",
+			"related": false
+		},
+		{
+			"entityId": "EN_CLIENTERR_422",
+			"isContextEntity": null,
+			"moduleId": "FCTRC",
+			"related": false
+		}
+	],
+	"queries": [
+		{
+			"moduleId": "FCTRC",
+			"queryId": "Q_CLIEGTEN_XH49",
+			"related": false,
+			"subModuleId": "FCTRS"
+		}
+	]
+}
