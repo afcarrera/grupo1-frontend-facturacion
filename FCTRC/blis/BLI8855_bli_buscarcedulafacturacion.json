@@ -86,7 +86,7 @@
 				{
 					"attributeId": "AT51_FECHAFCR162",
 					"entityId": "EN_FACTURANU_162",
-					"format": "dd/MM/yyyy",
+					"format": "",
 					"name": "{3}",
 					"position": 4,
 					"type": "ATTRIBUTE"
