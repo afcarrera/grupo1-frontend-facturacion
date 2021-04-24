@@ -65,7 +65,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 0,
 					"moduleId": "FCTRC",
 					"moduleName": "FACTURACION",
 					"name": "FormularioClientesGrupoA",
