@@ -215,6 +215,13 @@
 			"blis": [
 			],
 			"entities": {
+				"EN_FACTURANU_162": [
+					"AT21_TOTALFTT162",
+					"AT33_CODIGOTA162",
+					"AT51_FECHAFCR162",
+					"AT56_APELLITE162",
+					"AT86_NOMBREII162"
+				],
 				"EN_FECHASBOU_205": [
 					"AT64_FECHAFIN205",
 					"AT93_FECHAICO205"
@@ -232,6 +239,15 @@
 				"LBL_FCTRC_FECHAINIO_78143"
 			],
 			"queries": {
+				"Q_FACTIUPG_WC96": [
+					"",
+					"",
+					"QM_FACTI999P6330_04",
+					"QM_FACTICPWC9214_01",
+					"QM_FACTIPW6CU118_02",
+					"QM_FACTIUCW6C528_03",
+					"QM_FACTIWU6CW286_05"
+				]
 			},
 			"subForms": [
 			]

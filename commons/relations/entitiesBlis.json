@@ -54,6 +54,23 @@
 		{
 			"entities": {
 				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_FACTURANU_162",
+						"moduleId": "FCTRC",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI8123_bli_recuperarfacturas",
+			"nameBli": "BLI_RecuperarFacturas"
+		},
+		{
+			"entities": {
+				"inputEntity": [
 					{
 						"entityId": "EN_PRODUCTGO_609",
 						"moduleId": "FCTRC",
