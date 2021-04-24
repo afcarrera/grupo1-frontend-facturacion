@@ -5,7 +5,7 @@
 		"forms": {
 			"FCTRC": [
 				{
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "FCTRC",
 					"moduleName": "FACTURACION",
 					"name": "FacturasPorCliente",
@@ -15,7 +15,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "FCTRC",
 					"moduleName": "FACTURACION",
 					"name": "FormularioFacturacionGrupoA",
@@ -25,7 +25,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,					
+					"generated": 2,
 					"moduleId": "FCTRC",
 					"moduleName": "FACTURACION",
 					"name": "FormularioFacturacionClientesGrupoA",
@@ -35,8 +35,7 @@
 					"type": "Simple form"
 				},
 				{
-					
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "FCTRC",
 					"moduleName": "FACTURACION",
 					"name": "FormularioProductosGrupoA",
@@ -46,7 +45,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "FCTRC",
 					"moduleName": "FACTURACION",
 					"name": "FormularioProductoGrupoA",
@@ -56,8 +55,7 @@
 					"type": "Simple form"
 				},
 				{
-					
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "FCTRC",
 					"moduleName": "FACTURACION",
 					"name": "FacturasPorFecha",
@@ -67,7 +65,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "FCTRC",
 					"moduleName": "FACTURACION",
 					"name": "FormularioClientesGrupoA",
@@ -77,8 +75,7 @@
 					"type": "Simple form"
 				},
 				{
-					
-					"generated": 4,
+					"generated": 2,
 					"moduleId": "FCTRC",
 					"moduleName": "FACTURACION",
 					"name": "FormularioClienteGrupoA",
