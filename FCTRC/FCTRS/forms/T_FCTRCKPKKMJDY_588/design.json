@@ -33,57 +33,6 @@
 			"columnsNum": 1,
 			"componentStyle": null,
 			"customEvents": [
-				{
-					"customEventId": "CEVC_002T_FCTRCKPKKMJDY_588_123",
-					"customizationLayer": 0,
-					"customizationLayerDescription": "ECU",
-					"enabled": "T",
-					"eventActions": [
-					],
-					"executionType": 1,
-					"filter": null,
-					"isEnabled": true,
-					"viewContainerEventType": {
-						"availableExecutionType": 7,
-						"description": "Inicializaci\u00f3n de datos de un ViewContainer, despues de este evento se realiza el segimiento de cambios en los datos",
-						"eventId": 2,
-						"name": "InitData"
-					}
-				},
-				{
-					"customEventId": "CEVC_008T_FCTRCKPKKMJDY_588_883",
-					"customizationLayer": 0,
-					"customizationLayerDescription": "ECU",
-					"enabled": "T",
-					"eventActions": [
-					],
-					"executionType": 1,
-					"filter": null,
-					"isEnabled": true,
-					"viewContainerEventType": {
-						"availableExecutionType": 1,
-						"description": "Se ejecuta antes de renderizar un ViewContainer, permite realizar personalizaciones visuales",
-						"eventId": 8,
-						"name": "Render"
-					}
-				},
-				{
-					"customEventId": "CEVC_501T_FCTRCKPKKMJDY_588_504",
-					"customizationLayer": 0,
-					"customizationLayerDescription": "ECU",
-					"enabled": "T",
-					"eventActions": [
-					],
-					"executionType": 1,
-					"filter": null,
-					"isEnabled": true,
-					"viewContainerEventType": {
-						"availableExecutionType": 7,
-						"description": "Evento que actua como listener cuando se cierra ventanas modales.",
-						"eventId": 501,
-						"name": "onCloseModal"
-					}
-				}
 			],
 			"customizationLayer": 0,
 			"customizationLayerDescription": "ECU",
@@ -473,8 +422,14 @@
 										"customizationLayerDescription": "ECU",
 										"enabled": "T",
 										"eventActions": [
+											{
+												"actionArgs": [
+												],
+												"actionId": "CUSTOM",
+												"actionType": "CUSTOM"
+											}
 										],
-										"executionType": 1,
+										"executionType": 3,
 										"filter": null,
 										"isEnabled": true,
 										"visualAttributeEventType": {

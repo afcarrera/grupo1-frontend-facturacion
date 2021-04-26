@@ -23,32 +23,10 @@
 		"customEvents": [
 			{
 				"eventName": "executeCommand",
-				"executionType": 1
+				"executionType": 3
 			}
 		],
 		"entityName": "EntidadClienteBusquedaGrupoA",
 		"eventsType": "visualAttributeEventType"
-	},
-	{
-		"attributeName": "",
-		"controlId": "VC_FACTURACIU_624588",
-		"controlName": "",
-		"controlType": "",
-		"customEvents": [
-			{
-				"eventName": "onCloseModal",
-				"executionType": 1
-			},
-			{
-				"eventName": "initData",
-				"executionType": 1
-			},
-			{
-				"eventName": "render",
-				"executionType": 1
-			}
-		],
-		"entityName": "",
-		"eventsType": "viewContainerEventType"
 	}
 ]
