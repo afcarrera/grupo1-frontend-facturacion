@@ -76,13 +76,12 @@
 						"queryView": {
 							"actionDesign": "Button",
 							"actions": [
-								"Create,Update,Delete"
 							],
 							"allowPaging": false,
 							"allowPagingStr": "F",
 							"allowSorting": false,
 							"allowSortingStr": "F",
-							"autoSync": null,
+							"autoSync": false,
 							"componentStyle": null,
 							"confirmRowDeletion": false,
 							"confirmRowDeletionStr": "F",
@@ -91,11 +90,11 @@
 							"customizationLayer": 0,
 							"customizationLayerDescription": "ECU",
 							"customUrlDialog": null,
-							"deleteCommandEnabled": true,
-							"deleteCommandEnabledStr": "T",
+							"deleteCommandEnabled": false,
+							"deleteCommandEnabledStr": "F",
 							"dialogTitleLabelId": null,
-							"editCommandEnabled": true,
-							"editCommandEnabledStr": "T",
+							"editCommandEnabled": false,
+							"editCommandEnabledStr": "F",
 							"editMode": "0",
 							"entityName": {
 								"$ref": "../../../../FCTRC/entities/EN_DETALLEAU_899.json#/name"
@@ -110,8 +109,8 @@
 								"AT21_CANTIDAD899",
 								"AT91_SUBTOTAA899"
 							],
-							"insertCommandEnabled": true,
-							"insertCommandEnabledStr": "T",
+							"insertCommandEnabled": false,
+							"insertCommandEnabledStr": "F",
 							"isCustomized": false,
 							"modalSize": null,
 							"modeSelection": "None",
@@ -132,7 +131,7 @@
 							"rowCommandAppearance": 0,
 							"style": null,
 							"subModuleIdDialog": null,
-							"taskIdDialog": "1.0.0",
+							"taskIdDialog": null,
 							"taskVersionDialog": null,
 							"typeFormDialog": null,
 							"userControl": {
