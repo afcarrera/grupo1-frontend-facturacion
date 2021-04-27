@@ -1,0 +1,18 @@
+[
+	{
+		"attributeName": "",
+		"controlId": "Q_PRODORUC_PV43",
+		"controlName": "DDLModalProductoQuery",
+		"controlType": "Query",
+		"customEvents": [
+			{
+				"eventName": "executeQuery",
+				"executionType": {
+					"$ref": "../../../../../FCTRC/FCTRS/queries/Q_PRODORUC_PV43.json#/customEvents"
+				}
+			}
+		],
+		"entityName": "EntidadProductoGrupoA",
+		"eventsType": "queryEventType"
+	}
+]

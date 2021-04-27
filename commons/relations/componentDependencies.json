@@ -328,6 +328,43 @@
 			},
 			"subForms": [
 			]
+		},
+		"T_FCTRCTCUUEVUO_237": {
+			"blis": [
+			],
+			"entities": {
+				"EN_DETALLEAU_899": [
+					"AT21_CANTIDAD899",
+					"AT46_CODIGOPO899"
+				],
+				"EN_PRODUCTGO_609": [
+					"AT25_PRECIOKY609",
+					"AT30_CODIGOUB609",
+					"AT41_NOMBREOE609"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_FCTRC_ACEPTARFM_25508",
+				"LBL_FCTRC_BUSCARWQB_95372",
+				"LBL_FCTRC_CANTIDADD_42592",
+				"LBL_FCTRC_CDIGOMIIH_34634",
+				"LBL_FCTRC_NOMBREVVS_63185",
+				"LBL_FCTRC_PRECIOIGZ_19730"
+			],
+			"queries": {
+				"Q_PRODORUC_PV43": [
+					"QM_PRODOUUVUU540_03",
+					"QM_PRODOUUVUU540_03"
+				]
+			},
+			"subForms": [
+			]
 		}
 	},
 	"Queries": {
@@ -352,6 +389,10 @@
 			]
 		},
 		"Q_PRODCUPP_OW53": {
+			"labels": [
+			]
+		},
+		"Q_PRODORUC_PV43": {
 			"labels": [
 			]
 		}

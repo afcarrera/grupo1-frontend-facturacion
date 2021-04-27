@@ -46,6 +46,9 @@
 			},
 			"T_FCTRCSHJHXXQL_436": {
 				"name": "FormularioClienteGrupoA"
+			},
+			"T_FCTRCTCUUEVUO_237": {
+				"name": "FormularioBuscarProdGrupoA"
 			}
 		},
 		"Queries": {
@@ -60,6 +63,9 @@
 			},
 			"Q_PRODCUPP_OW53": {
 				"name": "ProductoGrupoAQuery"
+			},
+			"Q_PRODORUC_PV43": {
+				"name": "DDLModalProductoQuery"
 			}
 		}
 	},

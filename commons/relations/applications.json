@@ -67,6 +67,14 @@
 					"subModuleId": "FCTRS",
 					"taskId": "T_FCTRCSHJHXXQL_436",
 					"type": "Simple form"
+				},
+				{
+					"generated": 4,
+					"moduleId": "FCTRC",
+					"name": "FormularioBuscarProdGrupoA",
+					"subModuleId": "FCTRS",
+					"taskId": "T_FCTRCTCUUEVUO_237",
+					"type": "Simple form"
 				}
 			]
 		},
