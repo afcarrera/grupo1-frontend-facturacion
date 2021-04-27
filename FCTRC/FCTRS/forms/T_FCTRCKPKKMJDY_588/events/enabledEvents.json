@@ -17,6 +17,20 @@
 	},
 	{
 		"attributeName": "",
+		"controlId": "QV_YJ49_HLE82",
+		"controlName": "QV_YJ49_HLE82",
+		"controlType": "",
+		"customEvents": [
+			{
+				"eventName": "rowSelecting",
+				"executionType": 1
+			}
+		],
+		"entityName": "EntidadClienteGrupoA",
+		"eventsType": "queryViewEventType"
+	},
+	{
+		"attributeName": "",
 		"controlId": "VA_VABUTTONWLKKQSA_336924",
 		"controlName": "",
 		"controlType": "Button",

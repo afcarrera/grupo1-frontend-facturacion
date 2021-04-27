@@ -101,8 +101,7 @@
 			},
 			"idBli": "BLI6765_bli_eliminarcliente",
 			"nameBli": "BLI_EliminarCliente"
-		},
-		{
+		},{
 			"entities": {
 				"inputEntity": [
 				],
@@ -118,8 +117,7 @@
 			},
 			"idBli": "BLI8123_bli_recuperarfacturas",
 			"nameBli": "BLI_RecuperarFacturas"
-		},
-		{
+		},{
 			"entities": {
 				"inputEntity": [
 				],
