@@ -30,6 +30,9 @@
 		"queries": {
 			"Q_PRODCUPP_OW53": {
 				"$ref": "../FCTRS/queries/Q_PRODCUPP_OW53.json#"
+			},
+			"Q_PRODORUC_PV43": {
+				"$ref": "../FCTRS/queries/Q_PRODORUC_PV43.json#"
 			}
 		}
 	}
