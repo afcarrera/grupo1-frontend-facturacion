@@ -20,6 +20,9 @@
 		"queries": {
 			"Q_FACTAUOA_IC34": {
 				"$ref": "../RPRTS/queries/Q_FACTAUOA_IC34.json#"
+			},
+			"Q_FACTIUPG_WC96": {
+				"$ref": "../RPRTS/queries/Q_FACTIUPG_WC96.json#"
 			}
 		}
 	},
@@ -27,6 +30,9 @@
 		"queries": {
 			"Q_PRODCUPP_OW53": {
 				"$ref": "../FCTRS/queries/Q_PRODCUPP_OW53.json#"
+			},
+			"Q_PRODORUC_PV43": {
+				"$ref": "../FCTRS/queries/Q_PRODORUC_PV43.json#"
 			}
 		}
 	}

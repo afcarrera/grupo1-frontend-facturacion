@@ -113,9 +113,9 @@
 							"insertCommandEnabledStr": "F",
 							"isCustomized": false,
 							"modalSize": null,
-							"modeSelection": "None",
+							"modeSelection": "Simple",
 							"moduleIdDialog": null,
-							"multiSelectEnabledStr": "F",
+							"multiSelectEnabledStr": "S",
 							"name": "QV_YJ49_HLE82",
 							"options": 0,
 							"pageSize": null,
@@ -125,6 +125,39 @@
 							"queryId": "Q_CLIEGTEN_XH49",
 							"queryVersion": "1.0.0",
 							"queryViewCustomActions": [
+								{
+									"action": null,
+									"commandImageId": null,
+									"commandName": "RowSelecting",
+									"commandOrder": null,
+									"commandType": 0,
+									"customActionId": "CEQV_208QV_YJ49_HLE82_371",
+									"customizationLayer": 0,
+									"customizationLayerDescription": "ECU",
+									"enabled": "T",
+									"eventActions": [
+									],
+									"executionType": 1,
+									"filter": null,
+									"isCustomized": false,
+									"name": "RowSelecting",
+									"options": 0,
+									"queryView": "QV_YJ49_HLE82",
+									"queryViewEventType": {
+										"availableExecutionType": 7,
+										"description": "Se ejecuta antes de que los datos modificados en una grilla sean comprometidos.",
+										"eventId": 208,
+										"name": "RowSelecting"
+									},
+									"serviceName": null,
+									"userControl": {
+										"customizationLayer": "0",
+										"customizationLayerDescription": "ECU",
+										"description": "Designer Button",
+										"type": "A",
+										"userControlId": "Button"
+									}
+								}
 							],
 							"queryViewId": "QV_YJ49_HLE82",
 							"queryViewType": "Grid",
@@ -422,8 +455,14 @@
 										"customizationLayerDescription": "ECU",
 										"enabled": "T",
 										"eventActions": [
+											{
+												"actionArgs": [
+												],
+												"actionId": "CUSTOM",
+												"actionType": "CUSTOM"
+											}
 										],
-										"executionType": 1,
+										"executionType": 3,
 										"filter": null,
 										"isEnabled": true,
 										"visualAttributeEventType": {

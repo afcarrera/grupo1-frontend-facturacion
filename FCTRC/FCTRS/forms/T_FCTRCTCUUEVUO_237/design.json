@@ -12,16 +12,16 @@
 	"header": null,
 	"id": {
 		"moduleId": "FCTRC",
-		"subModuleId": "RPRTS",
-		"taskId": "T_FCTRCOWTWRCHL_571",
+		"subModuleId": "FCTRS",
+		"taskId": "T_FCTRCTCUUEVUO_237",
 		"version": "1.0.0"
 	},
 	"isCustomized": false,
 	"isImported": false,
-	"mainViewContainerId": "VC_FACTURASOC_416571",
+	"mainViewContainerId": "VC_BUSCARPRAD_501237",
 	"modeEnabled": 4095,
 	"name": {
-		"$ref": "../../../../FCTRC/relations/componentKeys.json#/RPRTS/Forms/T_FCTRCOWTWRCHL_571/name"
+		"$ref": "../../../../FCTRC/relations/componentKeys.json#/FCTRS/Forms/T_FCTRCTCUUEVUO_237/name"
 	},
 	"setFocus": false,
 	"tempSaveStr": "F",
@@ -39,14 +39,14 @@
 			"enabled": 4095,
 			"id": {
 				"moduleId": "FCTRC",
-				"subModuleId": "RPRTS",
-				"taskId": "T_FCTRCOWTWRCHL_571",
+				"subModuleId": "FCTRS",
+				"taskId": "T_FCTRCTCUUEVUO_237",
 				"taskVersion": "1.0.0",
-				"viewContainerId": "VC_FACTURASOC_416571"
+				"viewContainerId": "VC_BUSCARPRAD_501237"
 			},
 			"isCustomized": false,
 			"layoutType": "Group",
-			"name": "FacturasPorFecha",
+			"name": "FormularioBuscarProdGrupoA",
 			"options": 0,
 			"responsiveLayouts": null,
 			"responsivity": false,
@@ -62,15 +62,171 @@
 						],
 						"enabled": 4095,
 						"entity": {
-							"$ref": "../../../../FCTRC/entities/EN_FECHASBOU_205.json#"
+							"$ref": "../../../../FCTRC/entities/EN_PRODUCTGO_609.json#"
 						},
 						"eventType": 0,
-						"groupId": "G_FACTURAFRO_649573",
+						"groupId": "G_BUSCARPARG_653702",
 						"htmlSection": "F",
 						"independentValidation": "F",
 						"isCustomized": false,
 						"layoutType": "Group",
-						"name": "Group1125",
+						"name": "Group2266",
+						"order": 2,
+						"orientation": "V",
+						"responsiveLayouts": null,
+						"responsivity": false,
+						"style": null,
+						"visible": 4095,
+						"visualAttributes": [
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../FCTRC/entities/EN_PRODUCTGO_609.json#/attributes/AT30_CODIGOUB609"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../FCTRC/assets/languages/FCTRC.json#/FCTRC/LBL/LBL_FCTRC_CDIGOMIIH_34634"
+									},
+									"labelId": "LBL_FCTRC_CDIGOMIIH_34634",
+									"moduleId": "FCTRC"
+								},
+								"maxRecords": null,
+								"name": "codigo",
+								"options": 0,
+								"order": 1,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextLabel"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_1445VWORQWHZVUA_138702",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../FCTRC/entities/EN_PRODUCTGO_609.json#/attributes/AT41_NOMBREOE609"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../FCTRC/assets/languages/FCTRC.json#/FCTRC/LBL/LBL_FCTRC_NOMBREVVS_63185"
+									},
+									"labelId": "LBL_FCTRC_NOMBREVVS_63185",
+									"moduleId": "FCTRC"
+								},
+								"maxRecords": null,
+								"name": "nombre",
+								"options": 0,
+								"order": 2,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextLabel"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_3FMSNVBDTNILRIT_941702",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../FCTRC/entities/EN_PRODUCTGO_609.json#/attributes/AT25_PRECIOKY609"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../FCTRC/assets/languages/FCTRC.json#/FCTRC/LBL/LBL_FCTRC_PRECIOIGZ_19730"
+									},
+									"labelId": "LBL_FCTRC_PRECIOIGZ_19730",
+									"moduleId": "FCTRC"
+								},
+								"maxRecords": null,
+								"name": "precio",
+								"options": 0,
+								"order": 3,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextLabel"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_4ETYFFBPZRCFYEK_745702",
+								"width": null,
+								"widthComposite": "D"
+							}
+						]
+					},
+					{
+						"collapsedStr": "F",
+						"colSpan": 1,
+						"columnsNum": 3,
+						"componentStyle": null,
+						"customEvents": [
+						],
+						"enabled": 4095,
+						"entity": {
+							"$ref": "../../../../FCTRC/entities/EN_DETALLEAU_899.json#"
+						},
+						"eventType": 0,
+						"groupId": "G_BUSCARPDGG_110702",
+						"htmlSection": "F",
+						"independentValidation": "F",
+						"isCustomized": false,
+						"layoutType": "Group",
+						"name": "Group1975",
 						"order": 1,
 						"orientation": "V",
 						"responsiveLayouts": null,
@@ -81,9 +237,6 @@
 							{
 								"aggregate": null,
 								"aggregateId": null,
-								"attribute": {
-									"$ref": "../../../../FCTRC/entities/EN_FECHASBOU_205.json#/attributes/AT93_FECHAICO205"
-								},
 								"attributeValidations": [
 								],
 								"colSpan": 1,
@@ -93,32 +246,22 @@
 								],
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
-								"enabled": 4095,
-								"format": null,
 								"include": 4095,
 								"isCustomized": false,
-								"label": {
-									"defaultValue": {
-										"$ref": "../../../../FCTRC/assets/languages/FCTRC.json#/FCTRC/LBL/LBL_FCTRC_FECHAINIO_78143"
-									},
-									"labelId": "LBL_FCTRC_FECHAINIO_78143",
-									"moduleId": "FCTRC"
-								},
 								"maxRecords": null,
-								"name": "fechaInicio",
+								"name": "",
 								"options": 0,
 								"order": 1,
-								"readOnly": 8,
 								"responsiveLayouts": null,
 								"responsivity": false,
 								"sizeWidthComposite": null,
 								"style": null,
 								"userControl": {
 									"type": "I",
-									"userControlId": "DateTimeField"
+									"userControlId": "Spacer"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_1331JUQVMVIHSHA_508573",
+								"visualAttributeId": "Spacer2819",
 								"width": null,
 								"widthComposite": "D"
 							},
@@ -126,10 +269,12 @@
 								"aggregate": null,
 								"aggregateId": null,
 								"attribute": {
-									"$ref": "../../../../FCTRC/entities/EN_FECHASBOU_205.json#/attributes/AT64_FECHAFIN205"
+									"$ref": "../../../../FCTRC/entities/EN_DETALLEAU_899.json#/attributes/AT46_CODIGOPO899"
 								},
 								"attributeValidations": [
 								],
+								"cacheDuration": 0,
+								"catalogName": null,
 								"colSpan": 1,
 								"componentInGrid": false,
 								"componentStyle": null,
@@ -138,31 +283,50 @@
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
 								"enabled": 4095,
-								"format": null,
+								"entityQuery": "EN_PRODUCTGO_609",
 								"include": 4095,
 								"isCustomized": false,
 								"label": {
 									"defaultValue": {
-										"$ref": "../../../../FCTRC/assets/languages/FCTRC.json#/FCTRC/LBL/LBL_FCTRC_FECHAFINN_60757"
+										"$ref": "../../../../FCTRC/assets/languages/FCTRC.json#/FCTRC/LBL/LBL_FCTRC_CDIGOMIIH_34634"
 									},
-									"labelId": "LBL_FCTRC_FECHAFINN_60757",
+									"labelId": "LBL_FCTRC_CDIGOMIIH_34634",
 									"moduleId": "FCTRC"
 								},
 								"maxRecords": null,
-								"name": "fechaFin",
+								"minChars": null,
+								"name": "codigoProducto",
 								"options": 0,
 								"order": 2,
+								"queryId": "Q_PRODORUC_PV43",
+								"queryMemberText": {
+									"attribute": {
+										"attributeId": "AT30_CODIGOUB609",
+										"name": "codigo"
+									},
+									"queryMemberId": "QM_PRODOUUVUU540_03"
+								},
+								"queryMemberValue": {
+									"attribute": {
+										"attributeId": "AT30_CODIGOUB609",
+										"name": "codigo"
+									},
+									"queryMemberId": "QM_PRODOUUVUU540_03"
+								},
+								"queryModule": "FCTRC",
+								"queryVersion": "1.0.0",
 								"readOnly": 8,
 								"responsiveLayouts": null,
 								"responsivity": false,
 								"sizeWidthComposite": null,
 								"style": null,
+								"type": "none",
 								"userControl": {
 									"type": "I",
-									"userControlId": "DateTimeField"
+									"userControlId": "DropDownList"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_3369OMAPQDWBBGI_140573",
+								"visualAttributeId": "VA_2PIYOVSTVVKERFH_216702",
 								"width": null,
 								"widthComposite": "D"
 							},
@@ -179,7 +343,7 @@
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
 								"enabled": 4095,
-								"entityQuery": "EN_FACTURANU_162",
+								"entityQuery": null,
 								"include": 4095,
 								"isCustomized": false,
 								"label": {
@@ -190,12 +354,11 @@
 									"moduleId": "FCTRC"
 								},
 								"maxRecords": null,
-								"name": "VA_VABUTTONRDFHRGY_420573",
+								"name": "",
 								"options": 0,
 								"order": 3,
-								"queryId": "Q_FACTIUPG_WC96",
-								"queryModule": "FCTRC",
-								"queryVersion": "1.0.0",
+								"queryModule": null,
+								"queryVersion": null,
 								"responsiveLayouts": null,
 								"responsivity": false,
 								"sizeWidthComposite": null,
@@ -205,7 +368,7 @@
 									"userControlId": "Button"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_VABUTTONRDFHRGY_420573",
+								"visualAttributeId": "VA_VABUTTONJNCRVMQ_338702",
 								"width": null,
 								"widthComposite": "D"
 							}
@@ -214,95 +377,23 @@
 					{
 						"collapsedStr": "F",
 						"colSpan": 1,
-						"columnsNum": 1,
+						"columnsNum": 3,
 						"componentStyle": null,
 						"customEvents": [
 						],
 						"enabled": 4095,
 						"entity": {
-							"$ref": "../../../../FCTRC/entities/EN_FACTURANU_162.json#"
+							"$ref": "../../../../FCTRC/entities/EN_DETALLEAU_899.json#"
 						},
 						"eventType": 0,
-						"groupId": "G_FACTURAPHO_720573",
+						"groupId": "G_BUSCARPPPU_892702",
 						"htmlSection": "F",
 						"independentValidation": "F",
 						"isCustomized": false,
 						"layoutType": "Group",
-						"name": "Group1755",
-						"order": 2,
+						"name": "Group2300",
+						"order": 3,
 						"orientation": "V",
-						"queryView": {
-							"actionDesign": "Button",
-							"actions": [
-							],
-							"allowPaging": false,
-							"allowPagingStr": "F",
-							"allowSorting": false,
-							"allowSortingStr": "F",
-							"autoSync": null,
-							"componentStyle": null,
-							"confirmRowDeletion": false,
-							"confirmRowDeletionStr": "F",
-							"customEvents": [
-							],
-							"customizationLayer": 0,
-							"customizationLayerDescription": "ECU",
-							"customUrlDialog": null,
-							"deleteCommandEnabled": false,
-							"deleteCommandEnabledStr": "F",
-							"dialogTitleLabelId": null,
-							"editCommandEnabled": false,
-							"editCommandEnabledStr": "F",
-							"editMode": "0",
-							"entityName": {
-								"$ref": "../../../../FCTRC/entities/EN_FACTURANU_162.json#/name"
-							},
-							"hasDetail": false,
-							"hasDetailString": "F",
-							"height": null,
-							"includeQueryMembers": [
-								"AT21_TOTALFTT162",
-								"AT33_CODIGOTA162",
-								"AT51_FECHAFCR162",
-								"AT56_APELLITE162",
-								"AT86_NOMBREII162"
-							],
-							"insertCommandEnabled": false,
-							"insertCommandEnabledStr": "F",
-							"isCustomized": false,
-							"modalSize": null,
-							"modeSelection": "None",
-							"moduleIdDialog": null,
-							"multiSelectEnabledStr": "F",
-							"name": "QV_ZX96_TQM22",
-							"options": 0,
-							"pageSize": null,
-							"query": {
-								"$ref": "../../../../FCTRC/RPRTS/queries/Q_FACTIUPG_WC96.json#"
-							},
-							"queryId": "Q_FACTIUPG_WC96",
-							"queryVersion": "1.0.0",
-							"queryViewCustomActions": [
-							],
-							"queryViewId": "QV_ZX96_TQM22",
-							"queryViewType": "Grid",
-							"rowCommandAppearance": 0,
-							"style": null,
-							"subModuleIdDialog": null,
-							"taskIdDialog": null,
-							"taskVersionDialog": null,
-							"typeFormDialog": null,
-							"userControl": {
-								"customizationLayer": 0,
-								"customizationLayerDescription": "ECU",
-								"description": "Designer Grid",
-								"name": "Designer Grid",
-								"type": "I",
-								"userControlId": "Grid"
-							},
-							"viewContainerIdDialog": null
-						},
-						"queryViewId": "QV_ZX96_TQM22",
 						"responsiveLayouts": null,
 						"responsivity": false,
 						"style": null,
@@ -311,74 +402,31 @@
 							{
 								"aggregate": null,
 								"aggregateId": null,
-								"attribute": {
-									"$ref": "../../../../FCTRC/entities/EN_FACTURANU_162.json#/attributes/AT51_FECHAFCR162"
-								},
 								"attributeValidations": [
 								],
 								"colSpan": 1,
-								"componentInGrid": true,
+								"componentInGrid": false,
 								"componentStyle": null,
 								"customEvents": [
 								],
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
-								"enabled": 4095,
-								"format": null,
 								"include": 4095,
 								"isCustomized": false,
 								"maxRecords": null,
-								"name": "fechaFactura",
-								"options": 0,
-								"order": 4,
-								"readOnly": 8,
-								"responsiveLayouts": null,
-								"responsivity": false,
-								"sizeWidthComposite": null,
-								"style": null,
-								"userControl": {
-									"type": "I",
-									"userControlId": "DateField"
-								},
-								"visible": 4095,
-								"visualAttributeId": "VA_DATEFIELDIVWOTC_633573",
-								"width": null,
-								"widthComposite": "D"
-							},
-							{
-								"aggregate": null,
-								"aggregateId": null,
-								"attribute": {
-									"$ref": "../../../../FCTRC/entities/EN_FACTURANU_162.json#/attributes/AT33_CODIGOTA162"
-								},
-								"attributeValidations": [
-								],
-								"colSpan": 1,
-								"componentInGrid": true,
-								"componentStyle": null,
-								"customEvents": [
-								],
-								"customizationLayer": 0,
-								"customizationLayerDescription": "ECU",
-								"enabled": 4095,
-								"include": 4095,
-								"isCustomized": false,
-								"maxRecords": null,
-								"name": "codigoFactura",
+								"name": "",
 								"options": 0,
 								"order": 1,
-								"readOnly": 8,
 								"responsiveLayouts": null,
 								"responsivity": false,
 								"sizeWidthComposite": null,
 								"style": null,
-								"textRows": 0,
 								"userControl": {
 									"type": "I",
-									"userControlId": "TextInputBox"
+									"userControlId": "Spacer"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXHMJ_704573",
+								"visualAttributeId": "Spacer2753",
 								"width": null,
 								"widthComposite": "D"
 							},
@@ -386,59 +434,30 @@
 								"aggregate": null,
 								"aggregateId": null,
 								"attribute": {
-									"$ref": "../../../../FCTRC/entities/EN_FACTURANU_162.json#/attributes/AT56_APELLITE162"
+									"$ref": "../../../../FCTRC/entities/EN_DETALLEAU_899.json#/attributes/AT21_CANTIDAD899"
 								},
 								"attributeValidations": [
 								],
 								"colSpan": 1,
-								"componentInGrid": true,
+								"componentInGrid": false,
 								"componentStyle": null,
 								"customEvents": [
 								],
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
 								"enabled": 4095,
+								"format": "",
 								"include": 4095,
 								"isCustomized": false,
-								"maxRecords": null,
-								"name": "apellidoCliente",
-								"options": 0,
-								"order": 3,
-								"readOnly": 8,
-								"responsiveLayouts": null,
-								"responsivity": false,
-								"sizeWidthComposite": null,
-								"style": null,
-								"textRows": 0,
-								"userControl": {
-									"type": "I",
-									"userControlId": "TextInputBox"
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../FCTRC/assets/languages/FCTRC.json#/FCTRC/LBL/LBL_FCTRC_CANTIDADD_42592"
+									},
+									"labelId": "LBL_FCTRC_CANTIDADD_42592",
+									"moduleId": "FCTRC"
 								},
-								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXOGP_126573",
-								"width": null,
-								"widthComposite": "D"
-							},
-							{
-								"aggregate": null,
-								"aggregateId": null,
-								"attribute": {
-									"$ref": "../../../../FCTRC/entities/EN_FACTURANU_162.json#/attributes/AT86_NOMBREII162"
-								},
-								"attributeValidations": [
-								],
-								"colSpan": 1,
-								"componentInGrid": true,
-								"componentStyle": null,
-								"customEvents": [
-								],
-								"customizationLayer": 0,
-								"customizationLayerDescription": "ECU",
-								"enabled": 4095,
-								"include": 4095,
-								"isCustomized": false,
 								"maxRecords": null,
-								"name": "nombreCliente",
+								"name": "cantidad",
 								"options": 0,
 								"order": 2,
 								"readOnly": 8,
@@ -452,44 +471,49 @@
 									"userControlId": "TextInputBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXTWM_900573",
+								"visualAttributeId": "VA_1JVTLGPNOLPUYKS_326702",
 								"width": null,
 								"widthComposite": "D"
 							},
 							{
 								"aggregate": null,
 								"aggregateId": null,
-								"attribute": {
-									"$ref": "../../../../FCTRC/entities/EN_FACTURANU_162.json#/attributes/AT21_TOTALFTT162"
-								},
 								"attributeValidations": [
 								],
 								"colSpan": 1,
-								"componentInGrid": true,
+								"componentInGrid": false,
 								"componentStyle": null,
 								"customEvents": [
 								],
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
 								"enabled": 4095,
+								"entityQuery": null,
 								"include": 4095,
 								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../FCTRC/assets/languages/FCTRC.json#/FCTRC/LBL/LBL_FCTRC_ACEPTARFM_25508"
+									},
+									"labelId": "LBL_FCTRC_ACEPTARFM_25508",
+									"moduleId": "FCTRC"
+								},
 								"maxRecords": null,
-								"name": "totalFactura",
+								"name": "",
 								"options": 0,
-								"order": 5,
-								"readOnly": 8,
+								"order": 3,
+								"queryModule": null,
+								"queryVersion": null,
 								"responsiveLayouts": null,
 								"responsivity": false,
 								"sizeWidthComposite": null,
 								"style": null,
-								"textRows": 0,
 								"userControl": {
-									"type": "I",
-									"userControlId": "TextInputBox"
+									"type": "A",
+									"userControlId": "Button"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_TEXTINPUTBOXYWJ_944573",
+								"visualAttributeId": "VA_VABUTTONNLWTCWB_114702",
 								"width": null,
 								"widthComposite": "D"
 							}
@@ -498,7 +522,7 @@
 				],
 				"id": {
 					"version": "1.0.0",
-					"viewId": "VW_FACTURASEA_573"
+					"viewId": "VW_BUSCARPROA_702"
 				},
 				"metadataVersion": "7.2.0.2024 BETA",
 				"modules": [
@@ -506,7 +530,7 @@
 						"moduleId": "FCTRC"
 					}
 				],
-				"name": "View of FacturasPorFecha"
+				"name": "View of FormularioBuscarProdGrupoA"
 			}
 		}
 	]

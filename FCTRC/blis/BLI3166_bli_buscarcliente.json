@@ -60,14 +60,6 @@
 			"_idQuery": "0d280fe0-2ac2-40e6-92a0-29f59ab3f7bb",
 			"columns": [
 				{
-					"attributeId": "AT70_CODIGOWH422",
-					"entityId": "EN_CLIENTERR_422",
-					"format": "",
-					"name": "codigo",
-					"position": 1,
-					"type": "ATTRIBUTE"
-				},
-				{
 					"attributeId": "AT72_CEDULAPK422",
 					"entityId": "EN_CLIENTERR_422",
 					"format": "",

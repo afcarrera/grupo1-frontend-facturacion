@@ -77,6 +77,13 @@
 			"blis": [
 			],
 			"entities": {
+				"EN_CLIENTERR_422": [
+					"AT62_NOMBREUR422",
+					"AT72_CEDULAPK422",
+					"AT72_TELEFONN422",
+					"AT79_DIRECCON422",
+					"AT87_APELLIDO422"
+				],
 				"EN_DETALLEAU_899": [
 					"AT21_CANTIDAD899",
 					"AT31_PRECIOUO899",
@@ -95,9 +102,14 @@
 			"header": [
 			],
 			"labels": [
+				"LBL_FCTRC_APELLIDOO_36938",
+				"LBL_FCTRC_CEDULAGXY_22401",
 				"LBL_FCTRC_CLIENTEFC_25542",
+				"LBL_FCTRC_DIRECCINN_36722",
 				"LBL_FCTRC_IDLANUETA_38146",
-				"LBL_FCTRC_NUEVAFART_68286"
+				"LBL_FCTRC_NOMBREVVS_63185",
+				"LBL_FCTRC_NUEVAFART_68286",
+				"LBL_FCTRC_TELEFONOO_64064"
 			],
 			"queries": {
 				"Q_DETAAERU_HX97": [
@@ -215,6 +227,13 @@
 			"blis": [
 			],
 			"entities": {
+				"EN_FACTURANU_162": [
+					"AT21_TOTALFTT162",
+					"AT33_CODIGOTA162",
+					"AT51_FECHAFCR162",
+					"AT56_APELLITE162",
+					"AT86_NOMBREII162"
+				],
 				"EN_FECHASBOU_205": [
 					"AT64_FECHAFIN205",
 					"AT93_FECHAICO205"
@@ -232,6 +251,15 @@
 				"LBL_FCTRC_FECHAINIO_78143"
 			],
 			"queries": {
+				"Q_FACTIUPG_WC96": [
+					"",
+					"",
+					"QM_FACTI999P6330_04",
+					"QM_FACTICPWC9214_01",
+					"QM_FACTIPW6CU118_02",
+					"QM_FACTIUCW6C528_03",
+					"QM_FACTIWU6CW286_05"
+				]
 			},
 			"subForms": [
 			]
@@ -300,6 +328,43 @@
 			},
 			"subForms": [
 			]
+		},
+		"T_FCTRCTCUUEVUO_237": {
+			"blis": [
+			],
+			"entities": {
+				"EN_DETALLEAU_899": [
+					"AT21_CANTIDAD899",
+					"AT46_CODIGOPO899"
+				],
+				"EN_PRODUCTGO_609": [
+					"AT25_PRECIOKY609",
+					"AT30_CODIGOUB609",
+					"AT41_NOMBREOE609"
+				]
+			},
+			"externalEntities": {
+			},
+			"externalQueries": {
+			},
+			"header": [
+			],
+			"labels": [
+				"LBL_FCTRC_ACEPTARFM_25508",
+				"LBL_FCTRC_BUSCARWQB_95372",
+				"LBL_FCTRC_CANTIDADD_42592",
+				"LBL_FCTRC_CDIGOMIIH_34634",
+				"LBL_FCTRC_NOMBREVVS_63185",
+				"LBL_FCTRC_PRECIOIGZ_19730"
+			],
+			"queries": {
+				"Q_PRODORUC_PV43": [
+					"QM_PRODOUUVUU540_03",
+					"QM_PRODOUUVUU540_03"
+				]
+			},
+			"subForms": [
+			]
 		}
 	},
 	"Queries": {
@@ -319,7 +384,15 @@
 			"labels": [
 			]
 		},
+		"Q_FACTIUPG_WC96": {
+			"labels": [
+			]
+		},
 		"Q_PRODCUPP_OW53": {
+			"labels": [
+			]
+		},
+		"Q_PRODORUC_PV43": {
 			"labels": [
 			]
 		}

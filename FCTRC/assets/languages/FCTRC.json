@@ -1,11 +1,14 @@
 {
 	"FCTRC": {
 		"LBL": {
+			"LBL_FCTRC_ACEPTARFM_25508": "Aceptar",
 			"LBL_FCTRC_ACTUALIRZ_84727": "Actualizar",
+			"LBL_FCTRC_AGREGARJE_57534": "Agregar",
 			"LBL_FCTRC_APELLIDOO_36938": "Apellido",
 			"LBL_FCTRC_BUSCARCIN_84215": "Buscar Cliente",
 			"LBL_FCTRC_BUSCARWQB_95372": "Buscar",
 			"LBL_FCTRC_CADENAMDT_61329": "Cadena",
+			"LBL_FCTRC_CANTIDADD_42592": "Cantidad",
 			"LBL_FCTRC_CDIGOMIIH_34634": "C\u00f3digo",
 			"LBL_FCTRC_CDULAFMFW_42539": "C\u00e9dula",
 			"LBL_FCTRC_CEDULAGXY_22401": "Cedula",
@@ -22,6 +25,7 @@
 			"LBL_FCTRC_NUEVAFART_68286": "Nueva Factura",
 			"LBL_FCTRC_NUEVOPYOG_24329": "Nuevo",
 			"LBL_FCTRC_PRECIOIGZ_19730": "Precio",
+			"LBL_FCTRC_SELECCIAN_53459": "Seleccionar",
 			"LBL_FCTRC_TELEFONOO_64064": "Telefono"
 		},
 		"MSG": {

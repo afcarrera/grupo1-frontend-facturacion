@@ -1,6 +1,12 @@
 {
 	"entities": [
 		{
+			"entityId": "EN_FACTURANU_162",
+			"isContextEntity": null,
+			"moduleId": "FCTRC",
+			"related": false
+		},
+		{
 			"entityId": "EN_FECHASBOU_205",
 			"isContextEntity": null,
 			"moduleId": "FCTRC",
@@ -8,5 +14,11 @@
 		}
 	],
 	"queries": [
+		{
+			"moduleId": "FCTRC",
+			"queryId": "Q_FACTIUPG_WC96",
+			"related": false,
+			"subModuleId": "RPRTS"
+		}
 	]
 }
