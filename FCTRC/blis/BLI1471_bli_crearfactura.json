@@ -1,0 +1,85 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_CLIENTERR_422",
+			"module": {
+				"moduleId": "FCTRC",
+				"moduleName": "FACTURACION"
+			},
+			"name": "EntidadClienteGrupoA"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "172474"
+		},
+		{
+			"attributeId": "AT70_CODIGOWH422",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "EN_CLIENTERR_422",
+			"format": "",
+			"name": "@i_codigo_cliente",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "I"
+		}
+	],
+	"name": "BLI_CrearFactura",
+	"outputEntity": [
+		{
+			"entityId": "EN_IDFACTURA_470",
+			"module": {
+				"moduleId": "FCTRC",
+				"moduleName": "FACTURACION"
+			},
+			"name": "EntidadIdFactura"
+		}
+	],
+	"outputParameters": [
+		{
+			"attributeId": "AT53_CODIGOFR470",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "out",
+			"entityId": "EN_IDFACTURA_470",
+			"format": "",
+			"name": "@o_codigo",
+			"type": "ATTRIBUTE",
+			"value": ""
+		}
+	],
+	"patternId": "BLI1471_bli_crearfactura",
+	"patternName": "BLI_CrearFactura",
+	"patternType": "Bli",
+	"queries": [
+	],
+	"resultSets": [
+	],
+	"returnEntity": [
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_facturacion_grupo1",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}
