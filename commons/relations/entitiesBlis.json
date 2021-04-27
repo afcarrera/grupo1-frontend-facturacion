@@ -123,38 +123,6 @@
 			},
 			"idBli": "BLI6765_bli_eliminarcliente",
 			"nameBli": "BLI_EliminarCliente"
-		},{
-			"entities": {
-				"inputEntity": [
-				],
-				"outputEntity": [
-				],
-				"returnEntity": [
-					{
-						"entityId": "EN_FACTURANU_162",
-						"moduleId": "FCTRC",
-						"related": false
-					}
-				]
-			},
-			"idBli": "BLI8123_bli_recuperarfacturas",
-			"nameBli": "BLI_RecuperarFacturas"
-		},{
-			"entities": {
-				"inputEntity": [
-				],
-				"outputEntity": [
-				],
-				"returnEntity": [
-					{
-						"entityId": "EN_PRODUCTGO_609",
-						"moduleId": "FCTRC",
-						"related": false
-					}
-				]
-			},
-			"idBli": "BLI8177_bli_recuperarproductosddl",
-			"nameBli": "BLI_RecuperarProductosDDL"
 		},
 		{
 			"entities": {
@@ -172,6 +140,23 @@
 			},
 			"idBli": "BLI8123_bli_recuperarfacturas",
 			"nameBli": "BLI_RecuperarFacturas"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_PRODUCTGO_609",
+						"moduleId": "FCTRC",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI8177_bli_recuperarproductosddl",
+			"nameBli": "BLI_RecuperarProductosDDL"
 		},
 		{
 			"entities": {
