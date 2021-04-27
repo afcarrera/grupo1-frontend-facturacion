@@ -29,7 +29,7 @@
 		"queryId": "Q_PRODORUC_PV43",
 		"version": "1.0.0"
 	},
-	"isAutomatic": true,
+	"isAutomatic": false,
 	"isImported": false,
 	"mainEntityId": "EN_PRODUCTGO_609",
 	"mainEntityModule": "FCTRC",

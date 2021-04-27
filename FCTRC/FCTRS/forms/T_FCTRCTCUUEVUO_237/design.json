@@ -283,7 +283,7 @@
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
 								"enabled": 4095,
-								"entityQuery": null,
+								"entityQuery": "EN_PRODUCTGO_609",
 								"include": 4095,
 								"isCustomized": false,
 								"label": {
@@ -298,23 +298,23 @@
 								"name": "codigoProducto",
 								"options": 0,
 								"order": 2,
-								"queryId": null,
+								"queryId": "Q_PRODORUC_PV43",
 								"queryMemberText": {
 									"attribute": {
-										"attributeId": null,
-										"name": null
+										"attributeId": "AT30_CODIGOUB609",
+										"name": "codigo"
 									},
-									"queryMemberId": null
+									"queryMemberId": "QM_PRODOUUVUU540_03"
 								},
 								"queryMemberValue": {
 									"attribute": {
-										"attributeId": null,
-										"name": null
+										"attributeId": "AT30_CODIGOUB609",
+										"name": "codigo"
 									},
-									"queryMemberId": null
+									"queryMemberId": "QM_PRODOUUVUU540_03"
 								},
-								"queryModule": null,
-								"queryVersion": null,
+								"queryModule": "FCTRC",
+								"queryVersion": "1.0.0",
 								"readOnly": 8,
 								"responsiveLayouts": null,
 								"responsivity": false,

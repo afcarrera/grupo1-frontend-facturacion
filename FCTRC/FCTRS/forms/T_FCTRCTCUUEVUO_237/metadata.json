@@ -14,5 +14,11 @@
 		}
 	],
 	"queries": [
+		{
+			"moduleId": "FCTRC",
+			"queryId": "Q_PRODORUC_PV43",
+			"related": false,
+			"subModuleId": "FCTRS"
+		}
 	]
 }

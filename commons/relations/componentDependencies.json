@@ -358,6 +358,10 @@
 				"LBL_FCTRC_PRECIOIGZ_19730"
 			],
 			"queries": {
+				"Q_PRODORUC_PV43": [
+					"QM_PRODOUUVUU540_03",
+					"QM_PRODOUUVUU540_03"
+				]
 			},
 			"subForms": [
 			]

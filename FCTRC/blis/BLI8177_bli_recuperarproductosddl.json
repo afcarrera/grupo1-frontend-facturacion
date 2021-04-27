@@ -16,12 +16,12 @@
 		},
 		{
 			"attributeId": "",
-			"bddType": "varchar",
-			"dataType": "VARCHAR",
+			"bddType": "char",
+			"dataType": "CHAR",
 			"direction": "in",
 			"entityId": "",
 			"format": "",
-			"name": "@i_codigo",
+			"name": "@i_operacion",
 			"type": "CONSTANT",
 			"value": "S"
 		}
