@@ -15,7 +15,11 @@
 					"type": "Simple form"
 				},
 				{
+<<<<<<< Updated upstream
 					"generated": 4,
+=======
+					"generated": 0,
+>>>>>>> Stashed changes
 					"moduleId": "FCTRC",
 					"moduleName": "FACTURACION",
 					"name": "FormularioFacturacionGrupoA",
