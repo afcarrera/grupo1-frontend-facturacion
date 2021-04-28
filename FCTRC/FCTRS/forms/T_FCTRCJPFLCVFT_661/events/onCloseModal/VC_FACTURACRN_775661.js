@@ -12,6 +12,7 @@ task.onCloseModalEvent = function (entities, onCloseModalEventArgs){
         entities.EntidadClienteGrupoA.apellido = onCloseModalEventArgs.result.cliente.apellido;
         entities.EntidadClienteGrupoA.direccion = onCloseModalEventArgs.result.cliente.direccion;
         entities.EntidadClienteGrupoA.telefono = onCloseModalEventArgs.result.cliente.telefono;
+        entities.EntidadClienteGrupoA.codigo = onCloseModalEventArgs.result.cliente.codigo;
        }
 
 };
