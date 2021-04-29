@@ -60,6 +60,23 @@
 			"entities": {
 				"inputEntity": [
 					{
+						"entityId": "EN_DETALLEAU_899",
+						"moduleId": "FCTRC",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+				]
+			},
+			"idBli": "BLI5775_bli_creardetalle",
+			"nameBli": "BLI_CrearDetalle"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
 						"entityId": "EN_PRODUCTGO_609",
 						"moduleId": "FCTRC",
 						"related": false
@@ -123,6 +140,45 @@
 			},
 			"idBli": "BLI6765_bli_eliminarcliente",
 			"nameBli": "BLI_EliminarCliente"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+					{
+						"entityId": "EN_IDFACTURA_470",
+						"moduleId": "FCTRC",
+						"related": false
+					}
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_DETALLEAU_899",
+						"moduleId": "FCTRC",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI7198_bli_recuperardetalle",
+			"nameBli": "BLI_RecuperarDetalle"
+		},
+		{
+			"entities": {
+				"inputEntity": [
+				],
+				"outputEntity": [
+				],
+				"returnEntity": [
+					{
+						"entityId": "EN_PRODUCTGO_609",
+						"moduleId": "FCTRC",
+						"related": false
+					}
+				]
+			},
+			"idBli": "BLI8049_bli_buscarproducto",
+			"nameBli": "BLI_BuscarProducto"
 		},
 		{
 			"entities": {

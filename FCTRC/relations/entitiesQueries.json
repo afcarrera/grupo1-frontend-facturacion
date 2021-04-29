@@ -33,6 +33,9 @@
 			},
 			"Q_PRODORUC_PV43": {
 				"$ref": "../FCTRS/queries/Q_PRODORUC_PV43.json#"
+			},
+			"Q_PRODTUUA_WB36": {
+				"$ref": "../FCTRS/queries/Q_PRODTUUA_WB36.json#"
 			}
 		}
 	}

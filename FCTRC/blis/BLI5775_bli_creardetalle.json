@@ -1,0 +1,88 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_DETALLEAU_899",
+			"module": {
+				"moduleId": "FCTRC",
+				"moduleName": "FACTURACION"
+			},
+			"name": "EntidadDetalleFactura"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "172474"
+		},
+		{
+			"attributeId": "AT46_CODIGOPO899",
+			"bddType": "varchar",
+			"dataType": "VARCHAR",
+			"direction": "in",
+			"entityId": "EN_DETALLEAU_899",
+			"format": "",
+			"name": "@i_codigo_producto",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT69_CODIGOCF899",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "EN_DETALLEAU_899",
+			"format": "",
+			"name": "@i_codigo_factura",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "AT21_CANTIDAD899",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "EN_DETALLEAU_899",
+			"format": "",
+			"name": "@i_cantidad",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "E"
+		}
+	],
+	"name": "BLI_CrearDetalle",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI5775_bli_creardetalle",
+	"patternName": "BLI_CrearDetalle",
+	"patternType": "Bli",
+	"queries": [
+	],
+	"resultSets": [
+	],
+	"returnEntity": [
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_facturacion_grupo1",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}

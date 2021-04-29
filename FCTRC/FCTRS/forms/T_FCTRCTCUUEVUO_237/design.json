@@ -33,6 +33,23 @@
 			"columnsNum": 1,
 			"componentStyle": null,
 			"customEvents": [
+				{
+					"customEventId": "CEVC_002T_FCTRCTCUUEVUO_237_341",
+					"customizationLayer": 0,
+					"customizationLayerDescription": "ECU",
+					"enabled": "T",
+					"eventActions": [
+					],
+					"executionType": 1,
+					"filter": null,
+					"isEnabled": true,
+					"viewContainerEventType": {
+						"availableExecutionType": 7,
+						"description": "Inicializaci\u00f3n de datos de un ViewContainer, despues de este evento se realiza el segimiento de cambios en los datos",
+						"eventId": 2,
+						"name": "InitData"
+					}
+				}
 			],
 			"customizationLayer": 0,
 			"customizationLayerDescription": "ECU",
@@ -56,7 +73,7 @@
 					{
 						"collapsedStr": "F",
 						"colSpan": 1,
-						"columnsNum": 3,
+						"columnsNum": 1,
 						"componentStyle": null,
 						"customEvents": [
 						],
@@ -73,6 +90,74 @@
 						"name": "Group2266",
 						"order": 2,
 						"orientation": "V",
+						"queryView": {
+							"actionDesign": "Button",
+							"actions": [
+							],
+							"allowPaging": false,
+							"allowPagingStr": "F",
+							"allowSorting": false,
+							"allowSortingStr": "F",
+							"autoSync": null,
+							"componentStyle": null,
+							"confirmRowDeletion": false,
+							"confirmRowDeletionStr": "F",
+							"customEvents": [
+							],
+							"customizationLayer": 0,
+							"customizationLayerDescription": "ECU",
+							"customUrlDialog": null,
+							"deleteCommandEnabled": false,
+							"deleteCommandEnabledStr": "F",
+							"dialogTitleLabelId": null,
+							"editCommandEnabled": false,
+							"editCommandEnabledStr": "F",
+							"editMode": "0",
+							"entityName": {
+								"$ref": "../../../../FCTRC/entities/EN_PRODUCTGO_609.json#/name"
+							},
+							"hasDetail": false,
+							"hasDetailString": "F",
+							"height": null,
+							"includeQueryMembers": [
+								"AT25_PRECIOKY609",
+								"AT30_CODIGOUB609",
+								"AT41_NOMBREOE609"
+							],
+							"insertCommandEnabled": false,
+							"insertCommandEnabledStr": "F",
+							"isCustomized": false,
+							"modalSize": null,
+							"modeSelection": "None",
+							"moduleIdDialog": null,
+							"multiSelectEnabledStr": "F",
+							"name": "QV_JO36_HGE54",
+							"options": 0,
+							"pageSize": null,
+							"query": {
+								"$ref": "../../../../FCTRC/FCTRS/queries/Q_PRODTUUA_WB36.json#"
+							},
+							"queryViewCustomActions": [
+							],
+							"queryViewId": "QV_JO36_HGE54",
+							"queryViewType": "Grid",
+							"rowCommandAppearance": 0,
+							"style": null,
+							"subModuleIdDialog": null,
+							"taskIdDialog": null,
+							"taskVersionDialog": null,
+							"typeFormDialog": null,
+							"userControl": {
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"description": "Designer Grid",
+								"name": "Designer Grid",
+								"type": "I",
+								"userControlId": "Grid"
+							},
+							"viewContainerIdDialog": null
+						},
+						"queryViewId": "QV_JO36_HGE54",
 						"responsiveLayouts": null,
 						"responsivity": false,
 						"style": null,
@@ -82,12 +167,12 @@
 								"aggregate": null,
 								"aggregateId": null,
 								"attribute": {
-									"$ref": "../../../../FCTRC/entities/EN_PRODUCTGO_609.json#/attributes/AT30_CODIGOUB609"
+									"$ref": "../../../../FCTRC/entities/EN_PRODUCTGO_609.json#/attributes/AT25_PRECIOKY609"
 								},
 								"attributeValidations": [
 								],
 								"colSpan": 1,
-								"componentInGrid": false,
+								"componentInGrid": true,
 								"componentStyle": null,
 								"customEvents": [
 								],
@@ -96,13 +181,43 @@
 								"enabled": 4095,
 								"include": 4095,
 								"isCustomized": false,
-								"label": {
-									"defaultValue": {
-										"$ref": "../../../../FCTRC/assets/languages/FCTRC.json#/FCTRC/LBL/LBL_FCTRC_CDIGOMIIH_34634"
-									},
-									"labelId": "LBL_FCTRC_CDIGOMIIH_34634",
-									"moduleId": "FCTRC"
+								"maxRecords": null,
+								"name": "precio",
+								"options": 0,
+								"order": 3,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
 								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXDAJ_753702",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../FCTRC/entities/EN_PRODUCTGO_609.json#/attributes/AT30_CODIGOUB609"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
 								"maxRecords": null,
 								"name": "codigo",
 								"options": 0,
@@ -112,12 +227,13 @@
 								"responsivity": false,
 								"sizeWidthComposite": null,
 								"style": null,
+								"textRows": 0,
 								"userControl": {
 									"type": "I",
-									"userControlId": "TextLabel"
+									"userControlId": "TextInputBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_1445VWORQWHZVUA_138702",
+								"visualAttributeId": "VA_TEXTINPUTBOXKRT_202702",
 								"width": null,
 								"widthComposite": "D"
 							},
@@ -130,7 +246,7 @@
 								"attributeValidations": [
 								],
 								"colSpan": 1,
-								"componentInGrid": false,
+								"componentInGrid": true,
 								"componentStyle": null,
 								"customEvents": [
 								],
@@ -139,13 +255,6 @@
 								"enabled": 4095,
 								"include": 4095,
 								"isCustomized": false,
-								"label": {
-									"defaultValue": {
-										"$ref": "../../../../FCTRC/assets/languages/FCTRC.json#/FCTRC/LBL/LBL_FCTRC_NOMBREVVS_63185"
-									},
-									"labelId": "LBL_FCTRC_NOMBREVVS_63185",
-									"moduleId": "FCTRC"
-								},
 								"maxRecords": null,
 								"name": "nombre",
 								"options": 0,
@@ -155,55 +264,13 @@
 								"responsivity": false,
 								"sizeWidthComposite": null,
 								"style": null,
+								"textRows": 0,
 								"userControl": {
 									"type": "I",
-									"userControlId": "TextLabel"
+									"userControlId": "TextInputBox"
 								},
 								"visible": 4095,
-								"visualAttributeId": "VA_3FMSNVBDTNILRIT_941702",
-								"width": null,
-								"widthComposite": "D"
-							},
-							{
-								"aggregate": null,
-								"aggregateId": null,
-								"attribute": {
-									"$ref": "../../../../FCTRC/entities/EN_PRODUCTGO_609.json#/attributes/AT25_PRECIOKY609"
-								},
-								"attributeValidations": [
-								],
-								"colSpan": 1,
-								"componentInGrid": false,
-								"componentStyle": null,
-								"customEvents": [
-								],
-								"customizationLayer": 0,
-								"customizationLayerDescription": "ECU",
-								"enabled": 4095,
-								"include": 4095,
-								"isCustomized": false,
-								"label": {
-									"defaultValue": {
-										"$ref": "../../../../FCTRC/assets/languages/FCTRC.json#/FCTRC/LBL/LBL_FCTRC_PRECIOIGZ_19730"
-									},
-									"labelId": "LBL_FCTRC_PRECIOIGZ_19730",
-									"moduleId": "FCTRC"
-								},
-								"maxRecords": null,
-								"name": "precio",
-								"options": 0,
-								"order": 3,
-								"readOnly": 8,
-								"responsiveLayouts": null,
-								"responsivity": false,
-								"sizeWidthComposite": null,
-								"style": null,
-								"userControl": {
-									"type": "I",
-									"userControlId": "TextLabel"
-								},
-								"visible": 4095,
-								"visualAttributeId": "VA_4ETYFFBPZRCFYEK_745702",
+								"visualAttributeId": "VA_TEXTINPUTBOXMED_183702",
 								"width": null,
 								"widthComposite": "D"
 							}
@@ -249,9 +316,9 @@
 								"include": 4095,
 								"isCustomized": false,
 								"maxRecords": null,
-								"name": "",
+								"name": "Spacer2419",
 								"options": 0,
-								"order": 1,
+								"order": 2,
 								"responsiveLayouts": null,
 								"responsivity": false,
 								"sizeWidthComposite": null,
@@ -261,7 +328,7 @@
 									"userControlId": "Spacer"
 								},
 								"visible": 4095,
-								"visualAttributeId": "Spacer2819",
+								"visualAttributeId": "Spacer2419",
 								"width": null,
 								"widthComposite": "D"
 							},
@@ -297,7 +364,7 @@
 								"minChars": null,
 								"name": "codigoProducto",
 								"options": 0,
-								"order": 2,
+								"order": 3,
 								"queryId": "Q_PRODORUC_PV43",
 								"queryMemberText": {
 									"attribute": {
@@ -333,6 +400,9 @@
 							{
 								"aggregate": null,
 								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../FCTRC/entities/EN_DETALLEAU_899.json#/attributes/AT69_CODIGOCF899"
+								},
 								"attributeValidations": [
 								],
 								"colSpan": 1,
@@ -343,7 +413,47 @@
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",
 								"enabled": 4095,
-								"entityQuery": null,
+								"include": 4095,
+								"isCustomized": false,
+								"label": {
+									"defaultValue": {
+										"$ref": "../../../../FCTRC/assets/languages/FCTRC.json#/FCTRC/LBL/LBL_FCTRC_IDLANUETA_38146"
+									},
+									"labelId": "LBL_FCTRC_IDLANUETA_38146",
+									"moduleId": "FCTRC"
+								},
+								"maxRecords": null,
+								"name": "codigoFactura",
+								"options": 0,
+								"order": 1,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextLabel"
+								},
+								"visible": 0,
+								"visualAttributeId": "VA_8334ACPLJUFMSWP_355702",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": false,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"entityQuery": "EN_PRODUCTGO_609",
 								"include": 4095,
 								"isCustomized": false,
 								"label": {
@@ -356,9 +466,10 @@
 								"maxRecords": null,
 								"name": "",
 								"options": 0,
-								"order": 3,
-								"queryModule": null,
-								"queryVersion": null,
+								"order": 4,
+								"queryId": "Q_PRODTUUA_WB36",
+								"queryModule": "FCTRC",
+								"queryVersion": "1.0.0",
 								"responsiveLayouts": null,
 								"responsivity": false,
 								"sizeWidthComposite": null,
@@ -484,6 +595,29 @@
 								"componentInGrid": false,
 								"componentStyle": null,
 								"customEvents": [
+									{
+										"customEventId": "CEVA_010VA_VABUTTONNLWTCWB_114702_381",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+											{
+												"actionArgs": [
+												],
+												"actionId": "CUSTOM",
+												"actionType": "CUSTOM"
+											}
+										],
+										"executionType": 7,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Permite personalizar la acci\u00f3n a ejecutar de un command o de un ActionControl",
+											"eventId": 10,
+											"name": "ExecuteCommand"
+										}
+									}
 								],
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",

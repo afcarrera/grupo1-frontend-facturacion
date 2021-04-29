@@ -1,0 +1,118 @@
+{
+	"customEvents": [
+		{
+			"customEventId": "CEQY_130_Q_PRODTUUA_WB36_294",
+			"customizationLayer": 0,
+			"customizationLayerDescription": "ECU",
+			"enabled": "T",
+			"eventActions": [
+				{
+					"actionArgs": [
+					],
+					"actionId": "CUSTOM",
+					"actionType": "CUSTOM"
+				}
+			],
+			"executionType": 3,
+			"queryEventType": {
+				"availableExecutionType": 7,
+				"description": "Sobreescribe la ejecuci\u00f3n de un Query",
+				"eventId": 130,
+				"name": "ExecuteQuery"
+			}
+		}
+	],
+	"customizationLayer": 0,
+	"customizationLayerDescription": "ECU",
+	"hasEvents": true,
+	"id": {
+		"queryId": "Q_PRODTUUA_WB36",
+		"version": "1.0.0"
+	},
+	"isAutomatic": false,
+	"isImported": false,
+	"mainEntityId": "EN_PRODUCTGO_609",
+	"mainEntityModule": "FCTRC",
+	"mainEntityName": {
+		"$ref": "../../../FCTRC/relations/componentKeys.json#/Entities/EN_PRODUCTGO_609/name"
+	},
+	"mainEntityVersion": "1.0.0",
+	"name": {
+		"$ref": "../../../FCTRC/relations/componentKeys.json#/FCTRS/Queries/Q_PRODTUUA_WB36/name"
+	},
+	"queryMembers": [
+		{
+			"alias": "codigo",
+			"attribute": {
+				"$ref": "../../../FCTRC/entities/EN_PRODUCTGO_609.json#/attributes/AT30_CODIGOUB609"
+			},
+			"attributeQuery": "codigo",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 1,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_PRODT6UWA6950_03",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "nombre",
+			"attribute": {
+				"$ref": "../../../FCTRC/entities/EN_PRODUCTGO_609.json#/attributes/AT41_NOMBREOE609"
+			},
+			"attributeQuery": "nombre",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 2,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_PRODTAAW3U568_04",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		},
+		{
+			"alias": "precio",
+			"attribute": {
+				"$ref": "../../../FCTRC/entities/EN_PRODUCTGO_609.json#/attributes/AT25_PRECIOKY609"
+			},
+			"attributeQuery": "precio",
+			"customizationLayer": "",
+			"customizationLayerDescription": "",
+			"defaultValue": null,
+			"defaultValueDataType": null,
+			"function": null,
+			"operator": null,
+			"order": 3,
+			"orderBy": null,
+			"orderByDirection": null,
+			"queryMemberId": "QM_PRODTAU6UU128_02",
+			"select": true,
+			"selectStr": "T",
+			"where": false,
+			"whereStr": "F"
+		}
+	],
+	"related": false,
+	"sqlWhere": null,
+	"subModules": [
+		{
+			"id": {
+				"moduleId": "FCTRC",
+				"subModuleId": "FCTRS"
+			}
+		}
+	]
+}

@@ -13,6 +13,12 @@
 			"related": false
 		},
 		{
+			"entityId": "EN_FACTURANU_162",
+			"isContextEntity": null,
+			"moduleId": "FCTRC",
+			"related": false
+		},
+		{
 			"entityId": "EN_IDFACTURA_470",
 			"isContextEntity": null,
 			"moduleId": "FCTRC",

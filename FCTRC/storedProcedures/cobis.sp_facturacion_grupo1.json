@@ -1,5 +1,5 @@
 {
-	"filename": "C:\\Users\\Usuario\\Desktop\\Nuevacarpeta\\git\\SPS_Viernes\\sp_facturacion_grupo1.sql",
+	"filename": "C:\\Users\\Usuario\\Desktop\\Nuevacarpeta\\Instaladores\\sp\\sp_facturacion_grupo1.sql",
 	"procedure": {
 		"database": "cobis",
 		"name": "sp_facturacion_grupo1",
@@ -88,7 +88,7 @@
 		],
 		"queries": [
 			{
-				"_idQuery": "d581a716-fc65-4b49-99bb-5dcf0ee82c51",
+				"_idQuery": "35ba3f7f-0d7f-450f-93d6-6fac8eedf4c9",
 				"columns": [
 					"{0}",
 					"{1}",
@@ -100,7 +100,7 @@
 				"queryText": "select cf_codigo,cl_nombre,cl_apellido,cf_fecha,cf_total\r\n\tfrom"
 			},
 			{
-				"_idQuery": "5f79a33b-3f48-44c0-a8d0-5753700634db",
+				"_idQuery": "205d060f-6fe0-4fe2-ae71-02e666ef001a",
 				"columns": [
 					"{0}",
 					"{1}",
@@ -110,6 +110,18 @@
 				],
 				"editMode": false,
 				"queryText": "select cf_codigo, cl_nombre,cl_apellido,cf_fecha,cf_total\r\n\tfrom"
+			},
+			{
+				"_idQuery": "89483bf2-b328-4837-bcf6-4f582a5e1770",
+				"columns": [
+					"codigoProducto",
+					"producto",
+					"precio",
+					"cantidad",
+					"subtotal"
+				],
+				"editMode": false,
+				"queryText": "select\r\n\t\t\u0027codigoProducto\u0027 = p.pr_codigo,\r\n\t\t\u0027producto\u0027 = p.pr_nombre,\r\n\t\t\u0027precio\u0027 = p.pr_precio,\r\n\t\t\u0027cantidad\u0027 = d.df_cantidad,\r\n\t\t\u0027subtotal\u0027 = d.df_subtotal\r\n\tfrom"
 			}
 		],
 		"variables": [

@@ -1,0 +1,129 @@
+{
+	"databaseType": "Sybase",
+	"inputEntity": [
+		{
+			"entityId": "EN_IDFACTURA_470",
+			"module": {
+				"moduleId": "FCTRC",
+				"moduleName": "FACTURACION"
+			},
+			"name": "EntidadIdFactura"
+		}
+	],
+	"inputParameters": [
+		{
+			"attributeId": "",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@t_trn",
+			"type": "CONSTANT",
+			"value": "172474"
+		},
+		{
+			"attributeId": "AT53_CODIGOFR470",
+			"bddType": "int",
+			"dataType": "INT",
+			"direction": "in",
+			"entityId": "EN_IDFACTURA_470",
+			"format": "",
+			"name": "@i_codigo_factura",
+			"type": "ATTRIBUTE",
+			"value": ""
+		},
+		{
+			"attributeId": "",
+			"bddType": "char",
+			"dataType": "CHAR",
+			"direction": "in",
+			"entityId": "",
+			"format": "",
+			"name": "@i_operacion",
+			"type": "CONSTANT",
+			"value": "D"
+		}
+	],
+	"name": "BLI_RecuperarDetalle",
+	"outputEntity": [
+	],
+	"outputParameters": [
+	],
+	"patternId": "BLI7198_bli_recuperardetalle",
+	"patternName": "BLI_RecuperarDetalle",
+	"patternType": "Bli",
+	"queries": [
+		{
+			"_idQuery": "89483bf2-b328-4837-bcf6-4f582a5e1770",
+			"isMapReturn": true,
+			"isReturn": true,
+			"isSingleResult": false,
+			"numberQuery": 3,
+			"queryName": "select\r\n\t\t\u0027codigoProducto\u0027 = p.pr_codigo,\r\n\t\t\u0027producto\u0027 = p.pr_nombre,\r\n\t\t\u0027precio\u0027 = p.pr_precio,\r\n\t\t\u0027cantidad\u0027 = d.df_cantidad,\r\n\t\t\u0027subtotal\u0027 = d.df_subtotal\r\n\tfrom"
+		}
+	],
+	"resultSets": [
+		{
+			"_idQuery": "89483bf2-b328-4837-bcf6-4f582a5e1770",
+			"columns": [
+				{
+					"attributeId": "AT46_CODIGOPO899",
+					"entityId": "EN_DETALLEAU_899",
+					"format": "",
+					"name": "codigoProducto",
+					"position": 1,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT63_PRODUCTT899",
+					"entityId": "EN_DETALLEAU_899",
+					"format": "",
+					"name": "producto",
+					"position": 2,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT31_PRECIOUO899",
+					"entityId": "EN_DETALLEAU_899",
+					"format": "",
+					"name": "precio",
+					"position": 3,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT21_CANTIDAD899",
+					"entityId": "EN_DETALLEAU_899",
+					"format": "",
+					"name": "cantidad",
+					"position": 4,
+					"type": "ATTRIBUTE"
+				},
+				{
+					"attributeId": "AT91_SUBTOTAA899",
+					"entityId": "EN_DETALLEAU_899",
+					"format": "",
+					"name": "subtotal",
+					"position": 5,
+					"type": "ATTRIBUTE"
+				}
+			],
+			"number": 1,
+			"singleResult": false
+		}
+	],
+	"returnEntity": [
+		{
+			"entityId": "EN_DETALLEAU_899",
+			"module": {
+				"moduleId": "FCTRC",
+				"moduleName": "FACTURACION"
+			},
+			"name": "EntidadDetalleFactura"
+		}
+	],
+	"serverName": "CENTRAL",
+	"serviceID": "cobis.sp_facturacion_grupo1",
+	"type": "SP",
+	"typeMapping": "MAPJava"
+}
