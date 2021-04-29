@@ -19,6 +19,12 @@
 			"queryId": "Q_PRODORUC_PV43",
 			"related": false,
 			"subModuleId": "FCTRS"
+		},
+		{
+			"moduleId": "FCTRC",
+			"queryId": "Q_PRODTUUA_WB36",
+			"related": false,
+			"subModuleId": "FCTRS"
 		}
 	]
 }

@@ -79,6 +79,7 @@
 			"entities": {
 				"EN_CLIENTERR_422": [
 					"AT62_NOMBREUR422",
+					"AT70_CODIGOWH422",
 					"AT72_CEDULAPK422",
 					"AT72_TELEFONN422",
 					"AT79_DIRECCON422",
@@ -106,6 +107,7 @@
 			],
 			"labels": [
 				"LBL_FCTRC_APELLIDOO_36938",
+				"LBL_FCTRC_CDIGOMIIH_34634",
 				"LBL_FCTRC_CEDULAGXY_22401",
 				"LBL_FCTRC_CLIENTEFC_25542",
 				"LBL_FCTRC_DIRECCINN_36722",
@@ -136,6 +138,7 @@
 				],
 				"EN_CLIENTERR_422": [
 					"AT62_NOMBREUR422",
+					"AT70_CODIGOWH422",
 					"AT72_CEDULAPK422",
 					"AT72_TELEFONN422",
 					"AT79_DIRECCON422",
@@ -162,7 +165,8 @@
 					"QM_CLIEG94999995_06",
 					"QM_CLIEGEHT4H312_05",
 					"QM_CLIEGHTHHX574_04",
-					"QM_CLIEGTEHN9976_02"
+					"QM_CLIEGTEHN9976_02",
+					"QM_CLIEGX9XTE425_03"
 				]
 			},
 			"subForms": [
@@ -339,7 +343,8 @@
 			"entities": {
 				"EN_DETALLEAU_899": [
 					"AT21_CANTIDAD899",
-					"AT46_CODIGOPO899"
+					"AT46_CODIGOPO899",
+					"AT69_CODIGOCF899"
 				],
 				"EN_PRODUCTGO_609": [
 					"AT25_PRECIOKY609",
@@ -358,13 +363,21 @@
 				"LBL_FCTRC_BUSCARWQB_95372",
 				"LBL_FCTRC_CANTIDADD_42592",
 				"LBL_FCTRC_CDIGOMIIH_34634",
-				"LBL_FCTRC_NOMBREVVS_63185",
-				"LBL_FCTRC_PRECIOIGZ_19730"
+				"LBL_FCTRC_IDLANUETA_38146"
 			],
 			"queries": {
 				"Q_PRODORUC_PV43": [
 					"QM_PRODOUUVUU540_03",
 					"QM_PRODOUUVUU540_03"
+				],
+				"Q_PRODTUUA_WB36": [
+					"",
+					"",
+					"",
+					"",
+					"QM_PRODT6UWA6950_03",
+					"QM_PRODTAAW3U568_04",
+					"QM_PRODTAU6UU128_02"
 				]
 			},
 			"subForms": [
@@ -397,6 +410,10 @@
 			]
 		},
 		"Q_PRODORUC_PV43": {
+			"labels": [
+			]
+		},
+		"Q_PRODTUUA_WB36": {
 			"labels": [
 			]
 		}

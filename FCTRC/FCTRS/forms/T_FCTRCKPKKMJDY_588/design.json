@@ -103,11 +103,12 @@
 							"hasDetailString": "F",
 							"height": null,
 							"includeQueryMembers": [
-								"AT72_CEDULAPK422",
-								"AT62_NOMBREUR422",
 								"AT87_APELLIDO422",
 								"AT79_DIRECCON422",
-								"AT72_TELEFONN422"
+								"AT72_TELEFONN422",
+								"AT72_CEDULAPK422",
+								"AT62_NOMBREUR422",
+								"AT70_CODIGOWH422"
 							],
 							"insertCommandEnabled": false,
 							"insertCommandEnabledStr": "F",
@@ -254,6 +255,43 @@
 								},
 								"visible": 4095,
 								"visualAttributeId": "VA_TEXTINPUTBOXHEN_685924",
+								"width": null,
+								"widthComposite": "D"
+							},
+							{
+								"aggregate": null,
+								"aggregateId": null,
+								"attribute": {
+									"$ref": "../../../../FCTRC/entities/EN_CLIENTERR_422.json#/attributes/AT70_CODIGOWH422"
+								},
+								"attributeValidations": [
+								],
+								"colSpan": 1,
+								"componentInGrid": true,
+								"componentStyle": null,
+								"customEvents": [
+								],
+								"customizationLayer": 0,
+								"customizationLayerDescription": "ECU",
+								"enabled": 4095,
+								"include": 4095,
+								"isCustomized": false,
+								"maxRecords": null,
+								"name": "codigo",
+								"options": 0,
+								"order": 1,
+								"readOnly": 8,
+								"responsiveLayouts": null,
+								"responsivity": false,
+								"sizeWidthComposite": null,
+								"style": null,
+								"textRows": 0,
+								"userControl": {
+									"type": "I",
+									"userControlId": "TextInputBox"
+								},
+								"visible": 4095,
+								"visualAttributeId": "VA_TEXTINPUTBOXJTL_844924",
 								"width": null,
 								"widthComposite": "D"
 							},

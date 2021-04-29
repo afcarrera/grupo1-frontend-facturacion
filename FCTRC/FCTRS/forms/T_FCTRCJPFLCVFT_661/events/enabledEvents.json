@@ -1,6 +1,20 @@
 [
 	{
 		"attributeName": "",
+		"controlId": "CEQV_201QV_RY97_GWB17_172",
+		"controlName": "QV_RY97_GWB17",
+		"controlType": "Button",
+		"customEvents": [
+			{
+				"eventName": "gridCommand",
+				"executionType": 1
+			}
+		],
+		"entityName": "EntidadDetalleFactura",
+		"eventsType": "queryViewCommandEventType"
+	},
+	{
+		"attributeName": "",
 		"controlId": "Q_DETAAERU_HX97",
 		"controlName": "DetalleFacturacionGrupoAQuery",
 		"controlType": "Query",
