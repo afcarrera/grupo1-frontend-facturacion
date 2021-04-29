@@ -14,5 +14,19 @@
 		],
 		"entityName": "EntidadProductoGrupoA",
 		"eventsType": "queryEventType"
+	},
+	{
+		"attributeName": "codigoProducto",
+		"controlId": "VA_2PIYOVSTVVKERFH_216702",
+		"controlName": "codigoProducto",
+		"controlType": "DropDownList",
+		"customEvents": [
+			{
+				"eventName": "change",
+				"executionType": 1
+			}
+		],
+		"entityName": "EntidadDetalleFactura",
+		"eventsType": "visualAttributeEventType"
 	}
 ]

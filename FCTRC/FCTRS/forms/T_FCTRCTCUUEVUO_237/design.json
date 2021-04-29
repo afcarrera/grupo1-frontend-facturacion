@@ -279,6 +279,23 @@
 								"componentInGrid": false,
 								"componentStyle": null,
 								"customEvents": [
+									{
+										"customEventId": "CEVA_104VA_2PIYOVSTVVKERFH_216702_952",
+										"customizationLayer": 0,
+										"customizationLayerDescription": "ECU",
+										"enabled": "T",
+										"eventActions": [
+										],
+										"executionType": 1,
+										"filter": null,
+										"isEnabled": true,
+										"visualAttributeEventType": {
+											"availableExecutionType": 7,
+											"description": "Se ejecuta al cambiar el valor de un VisualAttribute",
+											"eventId": 104,
+											"name": "Changed"
+										}
+									}
 								],
 								"customizationLayer": 0,
 								"customizationLayerDescription": "ECU",

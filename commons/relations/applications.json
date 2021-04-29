@@ -69,7 +69,7 @@
 					"type": "Simple form"
 				},
 				{
-					"generated": 2,
+					"generated": 0,
 					"moduleId": "FCTRC",
 					"name": "FormularioBuscarProdGrupoA",
 					"subModuleId": "FCTRS",
